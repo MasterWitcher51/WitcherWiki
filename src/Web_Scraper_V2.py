@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
 import json
+from utils import clean_text, split_items
+import time
 
 BASE_URL = "https://thewitcher3.wiki.fextralife.com"
 START_URL = f"{BASE_URL}/Creatures+and+Monsters"
@@ -13,18 +15,6 @@ HEADERS = {
                   "Chrome/116.0.0.0 Safari/537.36"
 }
 
-# -----------------------------
-# Helpers
-# -----------------------------
-def clean_text(text):
-    """Strip whitespace and remove excess newlines."""
-    return " ".join(text.split()) if text else ""
-
-def split_items(text):
-    """Split comma or newline-separated strings into a list."""
-    if not text:
-        return []
-    return [clean_text(item) for item in text.replace("\n", ",").split(",") if item.strip()]
 
 def extract_drops(soup):
     """Extracts monster drops from the page without duplicates."""
@@ -90,8 +80,16 @@ def get_all_monster_links():
 # -----------------------------
 def scrape_monster(url):
     print(f"Scraping monster page: {url}")
-    res = requests.get(url, headers=HEADERS)
-    res.raise_for_status()
+    try:
+        res = requests.get(url, headers=HEADERS, timeout=10)
+        res.raise_for_status()
+    except requests.exceptions.HTTPError as e:
+        print(f" Skipped {url} (HTTP error: {e})")
+        return None
+    except requests.exceptions.RequestException as e:
+        print(f" Skipped {url} (Request error: {e})")
+        return None
+    
     soup = BeautifulSoup(res.text, "html.parser")
 
     # Name of Monster (strip "| The Witcher 3 Wiki" if present)
@@ -127,25 +125,24 @@ def scrape_monster(url):
     print(f"  Parsed monster: {name}")
     return monster
 
-
+def scrape_all_monsters():
+    links = get_all_monster_links()
+    monsters = []
+    
+    for i, link in enumerate(links, 1):
+        print(f"[{i}/{len(links)}]")
+        monster = scrape_monster(link["url"])  
+        if monster:
+            monsters.append(monster)
+        time.sleep(1)  # Be polite to the server
+    
+    # Save to JSON
+    DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(DATA_PATH, 'w', encoding='utf-8') as f:
+        json.dump(monsters, f, indent=2, ensure_ascii=False)
+    
+    print(f"\nSaved {len(monsters)} monsters to {DATA_PATH}")
 
 if __name__ == "__main__":
-    links = get_all_monster_links()
-    print(f"Found {len(links)} monsters")
-
-    # Take the first 10 for testing
-    test_links = links[0:5]
-    monsters = []
-
-    for test_link in test_links:
-        test_url = test_link["url"]
-        print(f"\nTesting monster scrape: {test_url}\n")
-        monster = scrape_monster(test_url)
-        monsters.append(monster)
-
-    # Save these monsters to JSON
-    DATA_PATH.parent.mkdir(exist_ok=True)
-    DATA_PATH.write_text(json.dumps(monsters, indent=2, ensure_ascii=False), encoding="utf-8")
-
-    print(f"\nSaved {len(monsters)} monsters to {DATA_PATH}")
+    scrape_all_monsters()
 

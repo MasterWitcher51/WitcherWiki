@@ -1,0 +1,2174 @@
+[
+  {
+    "Name": "Abaya",
+    "Class": "Necrophage",
+    "Location": [
+      "Cliffs of Kjerag",
+      "South Ard Skellig"
+    ],
+    "Weaknesses": [
+      "Igni",
+      "Necrophage oil",
+      "Northern wind bomb",
+      "Quen"
+    ],
+    "Loot": [
+      "Water hag mutagen",
+      "Water hag tooth",
+      "Water hag trophy"
+    ]
+  },
+  {
+    "Name": "Alghoul",
+    "Class": "Necrophages",
+    "Location": [
+      "Battlefields and places with shallow graves or rotting corpses."
+    ],
+    "Weaknesses": [
+      "Necrophage Oil",
+      "Axii"
+    ],
+    "Loot": [
+      "Alghoul Bone Marrow",
+      "Alghoul Claw",
+      "Rotten Meat",
+      "Alghoul mutagen"
+    ]
+  },
+  {
+    "Name": "Arachas",
+    "Class": "Insectoids",
+    "Location": [
+      "Caves and Forests"
+    ],
+    "Weaknesses": [
+      "Golden Oriole",
+      "Insectoid Oil"
+    ],
+    "Loot": [
+      "Arachas Eyes",
+      "Arachas Venom",
+      "Chitin Scale",
+      "Arachas Mutagen"
+    ]
+  },
+  {
+    "Name": "Archgriffin",
+    "Class": "Unknown",
+    "Location": [
+      "Velen - Crow's Perch"
+    ],
+    "Weaknesses": [
+      "Aard",
+      "Hybrid Oil",
+      "Grapeshot"
+    ],
+    "Loot": [
+      "Archgriffin Acid Gland",
+      "Griffin Trophy",
+      "Archgriffin Pancreas",
+      "Griffin Feathers"
+    ]
+  },
+  {
+    "Name": "Armored Arachas",
+    "Class": "Insectoids",
+    "Location": [
+      "Velen"
+    ],
+    "Weaknesses": [
+      "Golden Oriole",
+      "Insectoid Oil."
+    ],
+    "Loot": [
+      "Blue Mutagen",
+      "Arachas Eyes"
+    ]
+  },
+  {
+    "Name": "Basilisk",
+    "Class": "Draconids",
+    "Location": [
+      "Dark",
+      "humid location such as cellars",
+      "caves",
+      "and city sewers"
+    ],
+    "Weaknesses": [
+      "Golden Oriole",
+      "Grapeshot",
+      "Draconid Oil",
+      "Aard"
+    ],
+    "Loot": [
+      "Lesser blue mutagen",
+      "Monster brain",
+      "Basilisk mutagen",
+      "Basilisk venom",
+      "Basilisk hide"
+    ]
+  },
+  {
+    "Name": "Bear",
+    "Class": "Unknown",
+    "Location": [
+      "Places of Power"
+    ],
+    "Weaknesses": [
+      "Beast Oil",
+      "Quen",
+      "Igni"
+    ],
+    "Loot": [
+      "Raw meat",
+      "Bear hide",
+      "Bear fat"
+    ]
+  },
+  {
+    "Name": "Berserker",
+    "Class": "Cursed Ones",
+    "Location": [
+      "Skellige"
+    ],
+    "Weaknesses": [
+      "Devil's Puffball",
+      "Cursed Oil",
+      "Quen",
+      "Igni"
+    ],
+    "Loot": [
+      "Bear Fat",
+      "Berserker Pelt",
+      "Raw Meat"
+    ]
+  },
+  {
+    "Name": "Botchling",
+    "Class": "Cursed Ones",
+    "Location": [
+      "Velen",
+      "Crow's Perch"
+    ],
+    "Weaknesses": [
+      "Axii",
+      "Cursed Oil"
+    ],
+    "Loot": [
+      "Necrophage Skin",
+      "Rotting Meat"
+    ]
+  },
+  {
+    "Name": "Caranthir",
+    "Class": "Unknown",
+    "Location": [
+      "Undvik"
+    ],
+    "Weaknesses": [
+      "Igni",
+      "Dimeritium Bomb",
+      "Elementa Oil"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Cave Troll",
+    "Class": "Ogroids",
+    "Location": [
+      "(info here)"
+    ],
+    "Weaknesses": [
+      "Ogroid Oil",
+      "Quen"
+    ],
+    "Loot": [
+      "Troll Skin",
+      "Cave Troll Liver",
+      "Infused Shard",
+      "Troll Mutagen"
+    ]
+  },
+  {
+    "Name": "Chort",
+    "Class": "Relict",
+    "Location": [
+      "Lindenvale"
+    ],
+    "Weaknesses": [
+      "Devil's Puffball",
+      "Relict Oil"
+    ],
+    "Loot": [
+      "Chort hide",
+      "Raw meat",
+      "Chort mutagen"
+    ]
+  },
+  {
+    "Name": "Cockatrice",
+    "Class": "Draconids",
+    "Location": [
+      "Fornhala"
+    ],
+    "Weaknesses": [
+      "Grapeshot",
+      "Draconid Oil",
+      "Aard"
+    ],
+    "Loot": [
+      "Cockatrice trophy",
+      "Cockatrice stomach"
+    ]
+  },
+  {
+    "Name": "Cyclops",
+    "Class": "Ogroids",
+    "Location": [
+      "Destroyed Bastion"
+    ],
+    "Weaknesses": [
+      "Ogroid Oil",
+      "Axii",
+      "Quen"
+    ],
+    "Loot": [
+      "Cyclop's Eye",
+      "Old bear hide",
+      "Infused shard",
+      "Monster Heart"
+    ]
+  },
+  {
+    "Name": "D'ao",
+    "Class": "Elementa",
+    "Location": [
+      "Ermion's laboratory in Kaer Trolde keep"
+    ],
+    "Weaknesses": [
+      "Dimeritium Bomb",
+      "Elementa Oil"
+    ],
+    "Loot": [
+      "Elemental essence",
+      "Earth elemental mutagen"
+    ]
+  },
+  {
+    "Name": "Devil by the Well",
+    "Class": "Specters",
+    "Location": [
+      "White Orchard"
+    ],
+    "Weaknesses": [
+      "Dimeritium",
+      "Moon Dust",
+      "Specter",
+      "Yrden"
+    ],
+    "Loot": [
+      "Noonwraith Trophy"
+    ]
+  },
+  {
+    "Name": "Devourer",
+    "Class": "Unknown",
+    "Location": [],
+    "Weaknesses": [],
+    "Loot": []
+  },
+  {
+    "Name": "Djinn",
+    "Class": "Elementa",
+    "Location": [
+      "Amos Ship"
+    ],
+    "Weaknesses": [
+      "Dimeritium Bomb",
+      "Elementa Oil"
+    ],
+    "Loot": [
+      "none"
+    ]
+  },
+  {
+    "Name": "Dog",
+    "Class": "Unknown",
+    "Location": [
+      "Velen",
+      "Novigrad",
+      "and Skellige"
+    ],
+    "Weaknesses": [
+      "Beast Oil"
+    ],
+    "Loot": [
+      "Dog Tallow",
+      "Raw Meat"
+    ]
+  },
+  {
+    "Name": "Doppler",
+    "Class": "Relicts",
+    "Location": [
+      "Novigrad"
+    ],
+    "Weaknesses": [
+      "Relict Oil"
+    ],
+    "Loot": [
+      "n/a"
+    ]
+  },
+  {
+    "Name": "Drowner",
+    "Class": "Unknown",
+    "Location": [
+      "White Orchard"
+    ],
+    "Weaknesses": [
+      "Necrophage Oil",
+      "Igni"
+    ],
+    "Loot": [
+      "Monster saliva",
+      "Drowner tongue",
+      "Monster Claw",
+      "Monster bone",
+      "Drowner brain",
+      "Monster bone and Drowner brain"
+    ]
+  },
+  {
+    "Name": "Drowned Dead",
+    "Class": "Unknown",
+    "Location": [
+      "Nighttime on the banks of ponds",
+      "lakes and rivers"
+    ],
+    "Weaknesses": [
+      "Necrophage Oil",
+      "Igni"
+    ],
+    "Loot": [
+      "Monster Saliva",
+      "Drowner Tongue",
+      "Monster Claw",
+      "Monster bone",
+      "Drowner Brain",
+      "Monster bone and Drowner Brain"
+    ]
+  },
+  {
+    "Name": "Earth Elemental",
+    "Class": "Elementa",
+    "Location": [
+      "Crookback Bog"
+    ],
+    "Weaknesses": [
+      "Dimeritium Bomb",
+      "Elementa Oil"
+    ],
+    "Loot": [
+      "Elemental Essence",
+      "Lesser Glyph of Quen",
+      "Infused Shard",
+      "Fifth Essence"
+    ]
+  },
+  {
+    "Name": "Ekhidna",
+    "Class": "Hybrids",
+    "Location": [
+      "Skellige"
+    ],
+    "Weaknesses": [
+      "Grapeshot",
+      "Hybrid Oil",
+      "Igni",
+      "Aard"
+    ],
+    "Loot": [
+      "Siren Vocal Cords",
+      "Shell",
+      "Water Essence"
+    ]
+  },
+  {
+    "Name": "Ekimmara",
+    "Class": "Vampires",
+    "Location": [
+      "Dragonslayer Grotto"
+    ],
+    "Weaknesses": [
+      "Devil's puffball",
+      "Vampire oil",
+      "Igni"
+    ],
+    "Loot": [
+      "Vampire Fang",
+      "Ekimmara Mutagen",
+      "Lesser Green Mutagen",
+      "Lesser Blue Mutagen",
+      "Monster Hair",
+      "Monster Tongue",
+      "Ekimmara Hide"
+    ]
+  },
+  {
+    "Name": "Endrega Drone",
+    "Class": "Insectoids",
+    "Location": [
+      "Skellige"
+    ],
+    "Weaknesses": [
+      "Golden Oriole",
+      "Insectoid Oil"
+    ],
+    "Loot": [
+      "Lesser green mutagen",
+      "Monster Saliva",
+      "Lesser blue mutagen",
+      "Venom Extract",
+      "Endrega armor plates",
+      "Endrega heart"
+    ]
+  },
+  {
+    "Name": "Endrega Warrior",
+    "Class": "Insectoids",
+    "Location": [
+      "Caves",
+      "abandoned buildings in Velen and Skellige."
+    ],
+    "Weaknesses": [
+      "Golden Oriole",
+      "Insectoid Oil"
+    ],
+    "Loot": [
+      "Chitinous shell",
+      "Endrega heart",
+      "Endrega armor plates",
+      "Lesser blue mutagen"
+    ]
+  },
+  {
+    "Name": "Endrega Worker",
+    "Class": "Insectoids",
+    "Location": [
+      "Forests and Woods"
+    ],
+    "Weaknesses": [
+      "Golden Oriole",
+      "Insectoid Oil"
+    ],
+    "Loot": [
+      "Endrega Embryo",
+      "Endrega Heart",
+      "Venom Extract",
+      "Chitin Scale"
+    ]
+  },
+  {
+    "Name": "Eredin",
+    "Class": "Unknown",
+    "Location": [
+      "Undvik"
+    ],
+    "Weaknesses": [
+      "Samum",
+      "Yrden",
+      "Igni",
+      "Silver Swords",
+      "Elementa Oil"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Erynia",
+    "Class": "Hybrids",
+    "Location": [
+      "(info here)"
+    ],
+    "Weaknesses": [
+      "Grapeshot",
+      "Hybrid Oil",
+      "Aard"
+    ],
+    "Loot": [
+      "Erynie Eye",
+      "Infused Shard"
+    ]
+  },
+  {
+    "Name": "Fiend",
+    "Class": "Unknown",
+    "Location": [
+      "Kimbolt Way"
+    ],
+    "Weaknesses": [
+      "Samum",
+      "Devil's Puffball",
+      "Relict Oil"
+    ],
+    "Loot": [
+      "Lesser red mutagen",
+      "Lesser green mutagen",
+      "Fifth Essence",
+      "Fiend dung",
+      "Fiend mutagen"
+    ]
+  },
+  {
+    "Name": "Fire Elemental",
+    "Class": "Elementa",
+    "Location": [
+      "Magical Ruins"
+    ],
+    "Weaknesses": [
+      "Dimeritium Bomb",
+      "Northern Wind",
+      "Elementa Oil",
+      "Aard"
+    ],
+    "Loot": [
+      "Golem Heart",
+      "Elemental Essence",
+      "Greater Dazhbog Runestone",
+      "Infused Shard"
+    ]
+  },
+  {
+    "Name": "Foglet",
+    "Class": "Necrophages",
+    "Location": [
+      "Swamps & Marshes"
+    ],
+    "Weaknesses": [
+      "Moon Dust",
+      "Quen",
+      "Necrophage Oil"
+    ],
+    "Loot": [
+      "Fogling Teeth",
+      "Fogling Mutagen",
+      "Fifth Essence",
+      "Monster Blood",
+      "Monster Brain",
+      "Monster Tongue"
+    ]
+  },
+  {
+    "Name": "Forktail",
+    "Class": "Draconids",
+    "Location": [
+      "Ard Skellig"
+    ],
+    "Weaknesses": [
+      "Golden Oriole",
+      "Grapeshot",
+      "Draconid Oil",
+      "Aard"
+    ],
+    "Loot": [
+      "Forktail Mutagen",
+      "Forktail Trophy",
+      "Dragon Scales",
+      "Forktail hide",
+      "x2 Dragon Scales"
+    ]
+  },
+  {
+    "Name": "Fugas",
+    "Class": "Relicts",
+    "Location": [
+      "Bald Mountain"
+    ],
+    "Weaknesses": [
+      "(info here)"
+    ],
+    "Loot": [
+      "Monster Ear",
+      "Monster Heart",
+      "Monster Hair",
+      "Monster Eye",
+      "Bald Mountain Key"
+    ]
+  },
+  {
+    "Name": "Gael",
+    "Class": "Vampires",
+    "Location": [
+      "Oxenfurt"
+    ],
+    "Weaknesses": [
+      "Moon Dust",
+      "Devil's Puffball",
+      "Vampire Oil",
+      "Yrden",
+      "Igni"
+    ],
+    "Loot": [
+      "Katakan mutagen",
+      "Katakan trophy",
+      "Lesser blue mutagen",
+      "Deargdeith",
+      "Key to katakan lair"
+    ]
+  },
+  {
+    "Name": "Gargoyle",
+    "Class": "Elementa",
+    "Location": [
+      "Abandoned Ruins and Castles"
+    ],
+    "Weaknesses": [
+      "Dimeritium Bomb",
+      "Elementa",
+      "Quen"
+    ],
+    "Loot": [
+      "Gargoyle Heart",
+      "Gargoyle Dust",
+      "Elemental Essence",
+      "Lesser Stribog Runestone",
+      "Lesser Morana Runestone"
+    ]
+  },
+  {
+    "Name": "Ghoul",
+    "Class": "Necrophages",
+    "Location": [
+      "White Orchard",
+      "Velen"
+    ],
+    "Weaknesses": [
+      "Necrophage Oil"
+    ],
+    "Loot": [
+      "Ghoul's blood",
+      "Monster blood",
+      "Monster claw",
+      "Monster liver",
+      "Monster saliva",
+      "Venom Extract",
+      "Venom Extract ."
+    ]
+  },
+  {
+    "Name": "Godling",
+    "Class": "Relicts",
+    "Location": [
+      "Crookback Bog"
+    ],
+    "Weaknesses": [
+      "None"
+    ],
+    "Loot": [
+      "??"
+    ]
+  },
+  {
+    "Name": "Golem",
+    "Class": "Elementa",
+    "Location": [
+      "Caves"
+    ],
+    "Weaknesses": [
+      "Dimeritium Bomb",
+      "Elementa Oil"
+    ],
+    "Loot": [
+      "Golem Heart",
+      "Lesser Stribog Runestone",
+      "Infused Dust"
+    ]
+  },
+  {
+    "Name": "Grave Hag",
+    "Class": "Necrophages",
+    "Location": [
+      "Downwarren",
+      "Lindenvale"
+    ],
+    "Weaknesses": [
+      "Black blood",
+      "Necrophage Oil",
+      "Yrden",
+      "Quen"
+    ],
+    "Loot": [
+      "Grave Hag Ear",
+      "Hag Teeth",
+      "Venom Extract",
+      "Greater Triglav Runestone",
+      "Grave Hag Mutagen"
+    ]
+  },
+  {
+    "Name": "Graveir",
+    "Class": "Necrophages",
+    "Location": [
+      "Near graves",
+      "dead animals and battlefields"
+    ],
+    "Weaknesses": [
+      "Necrophage Oil"
+    ],
+    "Loot": [
+      "Venom Extract",
+      "Ghoul's Blood"
+    ]
+  },
+  {
+    "Name": "Griffin",
+    "Class": "Unknown",
+    "Location": [
+      "White Orchard"
+    ],
+    "Weaknesses": [
+      "Aard",
+      "Hybrid Oil",
+      "Grapeshot"
+    ],
+    "Loot": [
+      "Griffin Trophy",
+      "Griffin Mutagen",
+      "Alchemical Ingredients",
+      "Griffin Mutagen (tested on the level 3)"
+    ]
+  },
+  {
+    "Name": "Hagubman",
+    "Class": "Ogroids",
+    "Location": [
+      "No Man's Land"
+    ],
+    "Weaknesses": [
+      "Northern Wind",
+      "Ogroid Oil"
+    ],
+    "Loot": [
+      "Monsters Eye",
+      "Monsters Essence",
+      "Nekker Claw",
+      "Nekker Eye",
+      "Nekker Blood"
+    ]
+  },
+  {
+    "Name": "Harpy",
+    "Class": "Hybrids",
+    "Location": [
+      "North of Heatherton Signpost in Velen"
+    ],
+    "Weaknesses": [
+      "Grapeshot",
+      "Hybrid Oil",
+      "Aard"
+    ],
+    "Loot": [
+      "Harpy Talons",
+      "Harpy Feathers",
+      "Harpy Eggs",
+      "Lesser Blue Mutagen",
+      "Lesser Green Mutagen"
+    ]
+  },
+  {
+    "Name": "Harrisi",
+    "Class": "Insectoids",
+    "Location": [
+      "In a Mine located ?"
+    ],
+    "Weaknesses": [
+      "Golden Oriole",
+      "Insectoid Oil"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Higher Vampire",
+    "Class": "Vampires",
+    "Location": [
+      "Cities and towns"
+    ],
+    "Weaknesses": [
+      "Vampire Oil",
+      "Igni"
+    ],
+    "Loot": [
+      "Orens",
+      "Deargdeith",
+      "Sapphire Dust",
+      "Rubedo"
+    ]
+  },
+  {
+    "Name": "Hound of the Wild Hunt",
+    "Class": "Elementa",
+    "Location": [
+      "During Wild Hunt"
+    ],
+    "Weaknesses": [
+      "Dimeritium Bomb",
+      "Elementa",
+      "Igni",
+      "Axii"
+    ],
+    "Loot": [
+      "Rotten Flesh",
+      "Sulfur"
+    ]
+  },
+  {
+    "Name": "Howler",
+    "Class": "Relicts",
+    "Location": [
+      "Lindenvale"
+    ],
+    "Weaknesses": [
+      "Devil's Puffball",
+      "Relict Oil"
+    ],
+    "Loot": [
+      "Monster Claw",
+      "Monster Ear",
+      "Raw Meat",
+      "Monster Brain"
+    ]
+  },
+  {
+    "Name": "Hym",
+    "Class": "Specters",
+    "Location": [
+      "Possessing a human"
+    ],
+    "Weaknesses": [
+      "Moon Dust",
+      "Specter Oil",
+      "Igni"
+    ],
+    "Loot": [
+      "Wraith Essence",
+      "Specter Dust",
+      "Amethyst Dust",
+      "Emerald Dust",
+      "Sapphire Dust",
+      "Infused Shard"
+    ]
+  },
+  {
+    "Name": "Ice Elemental",
+    "Class": "Elementa",
+    "Location": [
+      "Battle with sorcerers"
+    ],
+    "Weaknesses": [
+      "Dimeritium Bomb",
+      "Elementa Oil"
+    ],
+    "Loot": [
+      "None"
+    ]
+  },
+  {
+    "Name": "Ice Giant",
+    "Class": "Unknown",
+    "Location": [
+      "Undvik"
+    ],
+    "Weaknesses": [
+      "Quen",
+      "Ogroid Oil"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Ice Troll",
+    "Class": "Ogroids",
+    "Location": [
+      "Cave south of Tor Gvalch'ca in Skellegie and also rock trolls sw of the Crossroads in Velen"
+    ],
+    "Weaknesses": [
+      "Ogroid Oil",
+      "Quen"
+    ],
+    "Loot": [
+      "Troll Skin",
+      "Cave Troll Liver",
+      "Infused Shard",
+      "Troll Mutagen",
+      "Loot: Troll Skin"
+    ]
+  },
+  {
+    "Name": "Ifrit",
+    "Class": "Elementa",
+    "Location": [
+      "Magical Ruins"
+    ],
+    "Weaknesses": [
+      "Dimeritium Bomb",
+      "Northern Wind",
+      "Elementa Oil",
+      "Aard"
+    ],
+    "Loot": [
+      "Golem Heart",
+      "Elemental Essence",
+      "Greater Dazhbog Runestone",
+      "Infused Shard"
+    ]
+  },
+  {
+    "Name": "Ignis Fatuus",
+    "Class": "Necrophages",
+    "Location": [
+      "Crookback Bog"
+    ],
+    "Weaknesses": [
+      "Moon Dust",
+      "Necrophage Oil",
+      "Quen"
+    ],
+    "Loot": [
+      "Fogling Teeth",
+      "Fogling Mutagen",
+      "Fifth Essence"
+    ]
+  },
+  {
+    "Name": "Imp",
+    "Class": "Relicts",
+    "Location": [
+      "Novigrad"
+    ],
+    "Weaknesses": [
+      "Relict Oil"
+    ],
+    "Loot": [
+      "Doppler Mutagen",
+      "random Equipment & Items"
+    ]
+  },
+  {
+    "Name": "Jenny O' the Woods",
+    "Class": "Specters",
+    "Location": [
+      "Midcopse"
+    ],
+    "Weaknesses": [
+      "Moon Dust",
+      "Specter Oil",
+      "Yrden"
+    ],
+    "Loot": [
+      "Nightwraith Mutagen",
+      "Nightwraith Dark Essence",
+      "Nightwraith’s Hair",
+      "Wraith Essence",
+      "Specter Dust",
+      "Infused Dust",
+      "Lunar Shards"
+    ]
+  },
+  {
+    "Name": "Katakan",
+    "Class": "Vampires",
+    "Location": [
+      "Novigrad Sewers"
+    ],
+    "Weaknesses": [
+      "Yrden",
+      "Igni",
+      "Moon Dust",
+      "Devil's Puffball",
+      "Vampire Oil"
+    ],
+    "Loot": [
+      "Vampire Fang",
+      "Vampire Saliva",
+      "Katakan Mutagen"
+    ]
+  },
+  {
+    "Name": "King of Wolves",
+    "Class": "Unknown",
+    "Location": [
+      "Lindenvale"
+    ],
+    "Weaknesses": [
+      "Igni",
+      "Moon Dust",
+      "Cursed Oil",
+      "Devil's Puffball"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Lamia",
+    "Class": "Hybrids",
+    "Location": [
+      "Skellige"
+    ],
+    "Weaknesses": [
+      "Grapeshot",
+      "Hybrid Oil",
+      "Igni",
+      "Aard"
+    ],
+    "Loot": [
+      "Siren Vocal Cords",
+      "Shell",
+      "Water Essence"
+    ]
+  },
+  {
+    "Name": "Leshen",
+    "Class": "Relicts",
+    "Location": [
+      "Ancient forests of Velen"
+    ],
+    "Weaknesses": [
+      "Igni",
+      "Relict Oil",
+      "Dimeritium Bomb"
+    ],
+    "Loot": [
+      "Leshen Resin",
+      "Ancient Leshen Mutagen",
+      "Fiber",
+      "Timber",
+      "Leshen Mutagen",
+      "Infused Shard",
+      "Hardened Timber",
+      "Monster Bone"
+    ]
+  },
+  {
+    "Name": "Melusine",
+    "Class": "Hybrids",
+    "Location": [
+      "Spikeroog"
+    ],
+    "Weaknesses": [
+      "Grapeshot",
+      "Hybrid",
+      "Igni",
+      "Aard"
+    ],
+    "Loot": [
+      "Ekhidna Mutagen",
+      "Ekhidna Trophy"
+    ]
+  },
+  {
+    "Name": "Mourntart",
+    "Class": "Necrophage, Grave hag",
+    "Location": [
+      "Lindenvale"
+    ],
+    "Weaknesses": [
+      "Black blood",
+      "Necrophage Oil",
+      "Yrden",
+      "Quen"
+    ],
+    "Loot": [
+      "Grave Hag Trophy",
+      "Venom extract",
+      "Greater Triglav runestone",
+      "Grave hag's ear",
+      "Grave hag mutagen",
+      "Addan Deith"
+    ]
+  },
+  {
+    "Name": "Morvudd",
+    "Class": "Fiend",
+    "Location": [
+      "Rannvaig",
+      "Ard Skellig"
+    ],
+    "Weaknesses": [
+      "Sumum",
+      "Devil's Puffball",
+      "Rellct Oil"
+    ],
+    "Loot": [
+      "Fiend Dung",
+      "Fiend Mutagen",
+      "Fiend’s Eye",
+      "Fiend Trophy",
+      "Crowns"
+    ]
+  },
+  {
+    "Name": "Mucknixer",
+    "Class": "Unknown",
+    "Location": [
+      "Velen"
+    ],
+    "Weaknesses": [
+      "Necrophage Oil",
+      "Igni"
+    ],
+    "Loot": [
+      "Monster Saliva",
+      "Drowner Tongue",
+      "Monster Claw",
+      "Monster Bone",
+      "Drowner Brain",
+      "Monster Bone and Drowner Brain"
+    ]
+  },
+  {
+    "Name": "Nekker",
+    "Class": "Ogroids",
+    "Location": [
+      "No Man's Land"
+    ],
+    "Weaknesses": [
+      "Northern Wind",
+      "Ogroid Oil"
+    ],
+    "Loot": [
+      "Monsters Eye",
+      "Monsters Essence",
+      "Nekker Claw",
+      "Nekker Eye",
+      "Nekker Blood",
+      "Lesser Blue Mutagen",
+      "Lesser Green Mutagen"
+    ]
+  },
+  {
+    "Name": "Nekker Warrior",
+    "Class": "Ogroids",
+    "Location": [
+      "No Man's Land"
+    ],
+    "Weaknesses": [
+      "Northern Wind",
+      "Ogroid Oil"
+    ],
+    "Loot": [
+      "Monsters Eye",
+      "Monsters Essence",
+      "Nekker Claw",
+      "Nekker Eye",
+      "Nekker Blood",
+      "Lesser Blue Mutagen",
+      "Lesser Green Mutagen, Nekker Warrior's Liver.",
+      "Lesser Green Mutagen",
+      "Nekker Warrior's Liver."
+    ]
+  },
+  {
+    "Name": "Nightwraith",
+    "Class": "Specters",
+    "Location": [
+      "Velen"
+    ],
+    "Weaknesses": [
+      "Moon Dust",
+      "Specter Oil",
+      "Yrden"
+    ],
+    "Loot": [
+      "Nightwraith Mutagen",
+      "Dark Essence",
+      "Nightwraith’s Hair",
+      "Wraith Essence",
+      "Specter Dust",
+      "Infused Dust",
+      "Lunar Shards"
+    ]
+  },
+  {
+    "Name": "Nithral",
+    "Class": "Unknown",
+    "Location": [
+      "The Mire"
+    ],
+    "Weaknesses": [
+      "Thunderbolt",
+      "Elementa Oil"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Noonwraith",
+    "Class": "Specters",
+    "Location": [
+      "Abandoned Village"
+    ],
+    "Weaknesses": [
+      "Moon Dust",
+      "Specter Oil",
+      "Yrden"
+    ],
+    "Loot": [
+      "Light Essence",
+      "Specter Dust",
+      "Wraith Essence",
+      "Noonwraith Mutagen",
+      "Infused Dust",
+      "Amethyst Dust",
+      "Emerald Dust"
+    ]
+  },
+  {
+    "Name": "Opinicus",
+    "Class": "Hybrid",
+    "Location": [
+      "Aard",
+      "Hybrid Oil",
+      "Grapeshot"
+    ],
+    "Weaknesses": [
+      "Griffin Trophy",
+      "Alchemical Ingredients"
+    ],
+    "Loot": [
+      "??"
+    ]
+  },
+  {
+    "Name": "Penitent",
+    "Class": "Specters",
+    "Location": [
+      "Eldberg Lighthouse"
+    ],
+    "Weaknesses": [
+      "Moon Dust",
+      "Specter Oil",
+      "Yrden",
+      "Quen"
+    ],
+    "Loot": [
+      "Wraith Essence",
+      "Wraith Mutagen",
+      "Specter Dust",
+      "Amethyst Dust",
+      "Emerald Dust",
+      "Infused Dust"
+    ]
+  },
+  {
+    "Name": "Pesta",
+    "Class": "Specters",
+    "Location": [
+      "(info here)"
+    ],
+    "Weaknesses": [
+      "Specter Oil",
+      "Yrden"
+    ],
+    "Loot": [
+      "Wraith Mutagen",
+      "Wraith Essence",
+      "Specter Dust",
+      "Infused Shard",
+      "Lesser Glyph of Yrden"
+    ]
+  },
+  {
+    "Name": "Plague Maiden",
+    "Class": "Specters",
+    "Location": [
+      "Locations where plague has taken many lives"
+    ],
+    "Weaknesses": [
+      "Specter Oil",
+      "Yrden"
+    ],
+    "Loot": [
+      "Wraith Mutagen",
+      "Wraith Essence",
+      "Specter Dust",
+      "Infused Shard",
+      "Lesser Glyph of Yrden"
+    ]
+  },
+  {
+    "Name": "Rock Troll",
+    "Class": "Ogroids",
+    "Location": [
+      "Skellige"
+    ],
+    "Weaknesses": [
+      "Ogroid Oil",
+      "Quen"
+    ],
+    "Loot": [
+      "Monster Eye",
+      "Cave Troll Liver",
+      "Troll Hide"
+    ]
+  },
+  {
+    "Name": "Rotfiend",
+    "Class": "Necrophage",
+    "Location": [
+      "Velen"
+    ],
+    "Weaknesses": [
+      "Necrophage Oil"
+    ],
+    "Loot": [
+      "Rotfiend blood",
+      "Greater Rotfiend Blood",
+      "Necrophage Skin"
+    ]
+  },
+  {
+    "Name": "Royal Griffin",
+    "Class": "Unknown",
+    "Location": [
+      "White Orchard"
+    ],
+    "Weaknesses": [
+      "Igni",
+      "Grapeshot",
+      "Hybrid Oil",
+      "Aard",
+      "Quen"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Royal Wyvern",
+    "Class": "Draconids",
+    "Location": [
+      "Benek"
+    ],
+    "Weaknesses": [
+      "Golden oriole",
+      "Grapeshot",
+      "Draconid oil",
+      "Aard"
+    ],
+    "Loot": [
+      "Wyvern trophy",
+      "Wyvern mutagen",
+      "Wyvern egg",
+      "Anathema",
+      "Dragon claw",
+      "Dragon scale",
+      "Wyvern Hide",
+      "Wyvern Hide ."
+    ]
+  },
+  {
+    "Name": "Salma",
+    "Class": "Hybrids",
+    "Location": [
+      "Novigrad"
+    ],
+    "Weaknesses": [
+      "Hybrid Oil",
+      "Quen"
+    ],
+    "Loot": [
+      "n/a"
+    ]
+  },
+  {
+    "Name": "Sarasti",
+    "Class": "Vampires",
+    "Location": [
+      "Byways"
+    ],
+    "Weaknesses": [
+      "Devil's Puffball",
+      "Vampire Oil",
+      "Igni"
+    ],
+    "Loot": [
+      "Ekimmara Hide",
+      "Vampire Saliva",
+      "Ekimma Mutagen",
+      "Vampire Fang"
+    ]
+  },
+  {
+    "Name": "Shrieker",
+    "Class": "Draconids",
+    "Location": [
+      "Crow's Perch"
+    ],
+    "Weaknesses": [
+      "Draconid Oil",
+      "Aard"
+    ],
+    "Loot": [
+      "Monster bone",
+      "Monster blood",
+      "Monster feather",
+      "Cockatrice stomach",
+      "Cockatrice Egg",
+      "Cockatrice mutagen",
+      "Dwarven axe",
+      "Smoking pipe",
+      "Skull",
+      "Cockatrice trophy"
+    ]
+  },
+  {
+    "Name": "Siren",
+    "Class": "Hybrids",
+    "Location": [
+      "Skellige"
+    ],
+    "Weaknesses": [
+      "Grapeshot",
+      "Hybrid Oil",
+      "Igni",
+      "Aard"
+    ],
+    "Loot": [
+      "Siren Vocal Cords",
+      "Shell",
+      "Water Essence"
+    ]
+  },
+  {
+    "Name": "Succubus",
+    "Class": "Hybrids",
+    "Location": [
+      "Cities"
+    ],
+    "Weaknesses": [],
+    "Loot": [
+      "Perfume",
+      "Flowers",
+      "Succubus Mutagen"
+    ]
+  },
+  {
+    "Name": "Sylvan",
+    "Class": "Relicts",
+    "Location": [
+      "Close to farms"
+    ],
+    "Weaknesses": [
+      "Samum",
+      "Devil’s Puffball",
+      "Relict Oil",
+      "Igni"
+    ],
+    "Loot": [
+      "Leather",
+      "Orens"
+    ]
+  },
+  {
+    "Name": "Speartip",
+    "Class": "Ogroids",
+    "Location": [
+      "Kaer Morhen"
+    ],
+    "Weaknesses": [
+      "Ogroid Oil",
+      "Axii",
+      "Quen"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Tangalore",
+    "Class": "Necrophage",
+    "Location": [
+      "Ruined Woods of Skellige"
+    ],
+    "Weaknesses": [
+      "Moon Dust",
+      "Quen",
+      "Necrophage Oil"
+    ],
+    "Loot": [
+      "Foglet Teeth",
+      "Foglet Mutagen",
+      "Fifth Essence",
+      "Powdered Monster Tissue",
+      "Monster Essence"
+    ]
+  },
+  {
+    "Name": "Therazane",
+    "Class": "Elementa",
+    "Location": [
+      "Moldavie Residence"
+    ],
+    "Weaknesses": [
+      "Dimeritium Bomb",
+      "Elementa Oil"
+    ],
+    "Loot": [
+      "Earth elemental trophy",
+      "Earth elemental mutagen",
+      "Cleaver Hood",
+      "Monster claw",
+      "Powdered monster tissue",
+      "Monster eye",
+      "Fifth essence"
+    ]
+  },
+  {
+    "Name": "The Apiarian Phantom",
+    "Class": "Elementa",
+    "Location": [
+      "Honeyfill Meadworks"
+    ],
+    "Weaknesses": [
+      "Dimeritium Bomb",
+      "Elementa Oil",
+      "Igni",
+      "Axii"
+    ],
+    "Loot": [
+      "Lesser Red Mutagen",
+      "Wild Hunt Hound Trophy"
+    ]
+  },
+  {
+    "Name": "Ulfhedinn",
+    "Class": "Cursed Ones",
+    "Location": [
+      "Skellige",
+      "particularly at night during full moon."
+    ],
+    "Weaknesses": [
+      "Moon Dust",
+      "Devil's Puffball",
+      "Cursed Oil",
+      "Igni"
+    ],
+    "Loot": [
+      "Werewolf Pelt",
+      "Werewolf Saliva",
+      "Werewolf Mutagen"
+    ]
+  },
+  {
+    "Name": "Venomous Arachas",
+    "Class": "Insectoids",
+    "Location": [
+      "Velen"
+    ],
+    "Weaknesses": [
+      "Golden Oriole",
+      "Insectoid Oil"
+    ],
+    "Loot": [
+      "Endrega Chitin Plates",
+      "Endrega Heart",
+      "Lesser Glyph of Yrden",
+      "Endrega Embryo",
+      "Lesser Green Mutagen",
+      "Venom Extract",
+      "Chitin Scale"
+    ]
+  },
+  {
+    "Name": "Vodnick",
+    "Class": "Unknown",
+    "Location": [
+      "Near bodies of water",
+      "corpses."
+    ],
+    "Weaknesses": [
+      "Necrophage Oil",
+      "Igni"
+    ],
+    "Loot": [
+      "Monster saliva",
+      "Drowner Tongue",
+      "Monster Claw",
+      "Monster Bone",
+      "Drowner Brain",
+      "Monster Bone and Drowner Brain"
+    ]
+  },
+  {
+    "Name": "Warg",
+    "Class": "Unknown",
+    "Location": [
+      "Velen"
+    ],
+    "Weaknesses": [
+      "Beast Oil",
+      "Igni"
+    ],
+    "Loot": [
+      "Wolf's liver",
+      "Dog tallow"
+    ]
+  },
+  {
+    "Name": "Water Hag",
+    "Class": "Necrophages",
+    "Location": [
+      "Swamps",
+      "shallow water"
+    ],
+    "Weaknesses": [
+      "Igni",
+      "Fire"
+    ],
+    "Loot": [
+      "Water Essence",
+      "Venom extract",
+      "Water hag tooth"
+    ]
+  },
+  {
+    "Name": "Werewolf",
+    "Class": "Unknown",
+    "Location": [
+      "Velen & Skellige",
+      "in dark and secluded areas and in the full moon."
+    ],
+    "Weaknesses": [
+      "Moon Dust",
+      "Devil's Puffball",
+      "Cursed Oil",
+      "Igni"
+    ],
+    "Loot": [
+      "Werewolf Pelt",
+      "Werewolf Saliva",
+      "Werewolf Mutagen"
+    ]
+  },
+  {
+    "Name": "Wham-a-Wham",
+    "Class": "Ogroid",
+    "Location": [
+      "Blandare"
+    ],
+    "Weaknesses": [
+      "Ogroid Oil"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "White Lady",
+    "Class": "Noonwraith",
+    "Location": [
+      "Farcorners",
+      "Glory Gate"
+    ],
+    "Weaknesses": [
+      "Dimeritium",
+      "Moon Dust",
+      "Specter",
+      "Yrden"
+    ],
+    "Loot": [
+      "Noonwraith Mutagen",
+      "Essence of Wraith",
+      "Specter Dust",
+      "Noonwraith Trophy",
+      "Crowns"
+    ]
+  },
+  {
+    "Name": "White Wolf",
+    "Class": "Unknown",
+    "Location": [
+      "Skellige"
+    ],
+    "Weaknesses": [
+      "Beast Oil",
+      "Igni"
+    ],
+    "Loot": [
+      "Wolf's liver",
+      "Dog tallow"
+    ]
+  },
+  {
+    "Name": "Wild Dog",
+    "Class": "Beast",
+    "Location": [
+      "White Orchard"
+    ],
+    "Weaknesses": [
+      "Beast Oil"
+    ],
+    "Loot": [
+      "Dog tallow",
+      "Raw meat"
+    ]
+  },
+  {
+    "Name": "Woodland Spirit",
+    "Class": "??",
+    "Location": [
+      "(info here)"
+    ],
+    "Weaknesses": [
+      "(info here)"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Wolf",
+    "Class": "Unknown",
+    "Location": [
+      "White Orchard"
+    ],
+    "Weaknesses": [
+      "Beast Oil",
+      "Igni"
+    ],
+    "Loot": [
+      "Wolf's liver",
+      "Dog tallow",
+      "Wolf pelt",
+      "White wolf pelt",
+      "Raw meat"
+    ]
+  },
+  {
+    "Name": "Wraith",
+    "Class": "Specters",
+    "Location": [
+      "Places of Power"
+    ],
+    "Weaknesses": [
+      "Moon Dust Bombs",
+      "Specter Oil",
+      "Yrden",
+      "Quen"
+    ],
+    "Loot": [
+      "Emerald dust",
+      "Infused dust",
+      "Essence of Wraith"
+    ]
+  },
+  {
+    "Name": "Wyvern",
+    "Class": "Unknown",
+    "Location": [
+      "Around and south of Crookback Bog"
+    ],
+    "Weaknesses": [
+      "Golden Oriole",
+      "Grapeshot",
+      "Draconid Oil",
+      "Aard"
+    ],
+    "Loot": [
+      "Wyvern Egg",
+      "Wyvern Plate",
+      "Dragon Scales",
+      "Wyvern Mutagen",
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster claw",
+      "Monster eye",
+      "Wyvern hide",
+      "Wyvern trophy"
+    ]
+  },
+  {
+    "Name": "Panther",
+    "Class": "",
+    "Location": [
+      "Toussaint"
+    ],
+    "Weaknesses": [
+      "Beast oil"
+    ],
+    "Loot": [
+      "Raw meat",
+      "Leather",
+      "Fur scrap"
+    ]
+  },
+  {
+    "Name": "Wild Boar",
+    "Class": "Unknown",
+    "Location": [
+      "Forrests"
+    ],
+    "Weaknesses": [
+      "Beast Oil",
+      "Yrden",
+      "Igni"
+    ],
+    "Loot": [
+      "Boar Tusks"
+    ]
+  },
+  {
+    "Name": "Archespore",
+    "Class": "Cursed Ones",
+    "Location": [
+      "Toussaint"
+    ],
+    "Weaknesses": [
+      "Cursed oils",
+      "Aard",
+      "Igni"
+    ],
+    "Loot": [
+      "Archespore juice",
+      "Archespore tendril",
+      "Monster spore"
+    ]
+  },
+  {
+    "Name": "The Toad Prince",
+    "Class": "Unknown",
+    "Location": [
+      "Oxenfurt Sewers"
+    ],
+    "Weaknesses": [
+      "Yrden",
+      "Igni",
+      "Cursed Oil"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Slyzard Matriarch",
+    "Class": "??",
+    "Location": [
+      "??"
+    ],
+    "Weaknesses": [
+      "??"
+    ],
+    "Loot": [
+      "??"
+    ]
+  },
+  {
+    "Name": "Slyzard",
+    "Class": "Unknown",
+    "Location": [
+      "??"
+    ],
+    "Weaknesses": [
+      "Grapeshot",
+      "Draconid Oil",
+      "Aard"
+    ],
+    "Loot": [
+      "??"
+    ]
+  },
+  {
+    "Name": "Alps",
+    "Class": "Vampires",
+    "Location": [
+      "Toussaint"
+    ],
+    "Weaknesses": [
+      "Vampire oil",
+      "Black Blood",
+      "Yrden"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Arachnomorph",
+    "Class": "Insectoids",
+    "Location": [
+      "Forrests and overrun villages"
+    ],
+    "Weaknesses": [
+      "Insectoid Oil",
+      "Axii"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Barghest",
+    "Class": "Specter",
+    "Location": [
+      "Toussaint"
+    ],
+    "Weaknesses": [
+      "Moon dust",
+      "Specter oils",
+      "Axii",
+      "Yrden"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Bruxa",
+    "Class": "Vampires",
+    "Location": [
+      "Toussaint"
+    ],
+    "Weaknesses": [
+      "Vampire oil",
+      "Black Blood",
+      "Moon Dust",
+      "Yrden"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Detlaff Van Der Eretein",
+    "Class": "Vampires",
+    "Location": [
+      "Touissant"
+    ],
+    "Weaknesses": [
+      "Quen",
+      "Black Blood",
+      "Vampire Oil"
+    ],
+    "Loot": [
+      "Water hag mutagen",
+      "Water hag tooth",
+      "Water hag trophy"
+    ]
+  },
+  {
+    "Name": "Ethereal",
+    "Class": "Unknown",
+    "Location": [
+      "Von Everec Estate"
+    ],
+    "Weaknesses": [
+      "Specter Oil",
+      "Northern Wind",
+      "Dancing Star",
+      "Yrden",
+      "Aard"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Fleder",
+    "Class": "Vampires",
+    "Location": [
+      "Toussaint"
+    ],
+    "Weaknesses": [
+      "Vampire oils",
+      "Black blood"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Garkain",
+    "Class": "Vampires",
+    "Location": [
+      "Toussaint"
+    ],
+    "Weaknesses": [
+      "Moon dust",
+      "Samum",
+      "Vampire oil",
+      "Black blood"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Giant Centipede",
+    "Class": "Insectoids",
+    "Location": [
+      "Toussaint"
+    ],
+    "Weaknesses": [
+      "Insectoid oils",
+      "Yrden"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Golyat",
+    "Class": "Unknown",
+    "Location": [
+      "Dulcinea Windmill"
+    ],
+    "Weaknesses": [
+      "Ogroid Oil",
+      "Quen",
+      "Yrden"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Kernun",
+    "Class": "Relicts",
+    "Location": [
+      "Logger's Hut"
+    ],
+    "Weaknesses": [
+      "Igni",
+      "Relict Oil",
+      "Dimertium Bomb"
+    ],
+    "Loot": [
+      "Leshen Resin",
+      "Ancient Leshen Mutagen",
+      "Fiber, Timber",
+      "Leshy Mutagen",
+      "Infused Shard",
+      "Hardened Timber",
+      "Fiber",
+      "Timber"
+    ]
+  },
+  {
+    "Name": "Kikimore Warrior",
+    "Class": "Insectoids",
+    "Location": [
+      "??"
+    ],
+    "Weaknesses": [
+      "White Honey",
+      "Insectoid Oil",
+      "Igni"
+    ],
+    "Loot": [
+      "??"
+    ]
+  },
+  {
+    "Name": "Pale Widow",
+    "Class": "Insectoids",
+    "Location": [
+      "??"
+    ],
+    "Weaknesses": [
+      "Yrden",
+      "Insectoid Oil"
+    ],
+    "Loot": [
+      "??"
+    ]
+  },
+  {
+    "Name": "Protofleder",
+    "Class": "Vampires",
+    "Location": [
+      "Toussaint"
+    ],
+    "Weaknesses": [
+      "Vampire oils",
+      "Black blood"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Scurver",
+    "Class": "Necrophages",
+    "Location": [
+      "Toussaint"
+    ],
+    "Weaknesses": [
+      "Necrophage Oil"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Shaelmaar",
+    "Class": "Unknown",
+    "Location": [
+      "Toussaint"
+    ],
+    "Weaknesses": [
+      "Relict Oil",
+      "Samum",
+      "Aard",
+      "Dragon's Dream"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Shaelmaar from the emperor of Nilfgaard",
+    "Class": "Relicts",
+    "Location": [
+      "Toussaint"
+    ],
+    "Weaknesses": [
+      "Samum",
+      "Relict oil",
+      "Aard"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Spotted Wight",
+    "Class": "Unknown",
+    "Location": [
+      "Toussaint"
+    ],
+    "Weaknesses": [
+      "Axii",
+      "Silver Sword",
+      "Necrophage Oil"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "The Caretaker",
+    "Class": "Unknown",
+    "Location": [
+      "Von Everec Estate"
+    ],
+    "Weaknesses": [
+      "Quen",
+      "Relict Oil",
+      "Superior Northern Wind"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "The Dragon of Fyresdal",
+    "Class": "Draconids",
+    "Location": [
+      "Fyresdal"
+    ],
+    "Weaknesses": [
+      "Golden Oriole",
+      "Grapeshot",
+      "Draconid Oil",
+      "Aard"
+    ],
+    "Loot": [
+      "Forktail Mutagen",
+      "Forktail Trophy",
+      "Crowns"
+    ]
+  },
+  {
+    "Name": "The Wraith from the Painting",
+    "Class": "Unknown",
+    "Location": [
+      "Von Everec Estate"
+    ],
+    "Weaknesses": [
+      "Yrden",
+      "Specter Oil",
+      "Quen"
+    ],
+    "Loot": []
+  },
+  {
+    "Name": "Wight",
+    "Class": "Necrophages",
+    "Location": [
+      "Toussaint"
+    ],
+    "Weaknesses": [
+      "Necrophage Oil",
+      "Axii"
+    ],
+    "Loot": []
+  }
+]

@@ -30,15 +30,5 @@ def load_monsters():
         monsters.append(monster_info)
     return monsters
 
-def main():
-    monsters = load_monsters()
-    print(f"Loaded {len(monsters)} monsters.\n")
-    
-    # Example: List all monsters
-    for m in monsters:
-        print(m)
-
-if __name__ == "__main__":
-    main()
         
 

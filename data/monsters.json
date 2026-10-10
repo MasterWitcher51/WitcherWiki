@@ -170,7 +170,9 @@
       "Dimeritium Bomb",
       "Elementa Oil"
     ],
-    "Loot": []
+    "Loot": [
+      "None (Wild Hunt Boss - Cutscene)"
+    ]
   },
   {
     "Name": "Cave Troll",
@@ -275,7 +277,17 @@
     "Class": "Unknown",
     "Location": [],
     "Weaknesses": [],
-    "Loot": []
+    "Loot": [
+      "Devourer's blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster heart",
+      "Monster liver",
+      "Monster saliva",
+      "Monster tongue",
+      "Monster tooth",
+      "Necrophage hide"
+    ]
   },
   {
     "Name": "Djinn",
@@ -482,7 +494,9 @@
       "Silver Swords",
       "Elementa Oil"
     ],
-    "Loot": []
+    "Loot": [
+      "None (Final Boss - Cutscene)"
+    ]
   },
   {
     "Name": "Erynia",
@@ -785,7 +799,17 @@
       "Golden Oriole",
       "Insectoid Oil"
     ],
-    "Loot": []
+    "Loot": [
+      "Arachas eyes",
+      "Arachas mutagen",
+      "Arachas trophy",
+      "Arachas venom",
+      "Chitinous shell",
+      "Mahakaman trousers",
+      "Monster heart",
+      "Monster saliva",
+      "Rotting flesh"
+    ]
   },
   {
     "Name": "Higher Vampire",
@@ -882,7 +906,26 @@
       "Quen",
       "Ogroid Oil"
     ],
-    "Loot": []
+    "Loot": [
+      "Deer hide",
+      "Infused shard",
+      "Lesser Glyph of Aard",
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster ear",
+      "Monster essence",
+      "Monster eye",
+      "Monster hair",
+      "Monster heart",
+      "Monster liver",
+      "Monster saliva",
+      "Monster tongue",
+      "Monster tooth",
+      "Old bear hide",
+      "Oren",
+      "Wolf hide"
+    ]
   },
   {
     "Name": "Ice Troll",
@@ -1004,7 +1047,9 @@
       "Cursed Oil",
       "Devil's Puffball"
     ],
-    "Loot": []
+    "Loot": [
+      "None (Quest Wolf - Ciri encounter)"
+    ]
   },
   {
     "Name": "Lamia",
@@ -1196,7 +1241,9 @@
       "Thunderbolt",
       "Elementa Oil"
     ],
-    "Loot": []
+    "Loot": [
+      "None (Story Boss - Keira Metz quest)"
+    ]
   },
   {
     "Name": "Noonwraith",
@@ -1336,7 +1383,12 @@
       "Aard",
       "Quen"
     ],
-    "Loot": []
+    "Loot": [
+      "Griffin's egg",
+      "Griffin feathers",
+      "Griffin mutagen",
+      "Raw meat"
+    ]
   },
   {
     "Name": "Royal Wyvern",
@@ -1475,7 +1527,9 @@
       "Axii",
       "Quen"
     ],
-    "Loot": []
+    "Loot": [
+      "None (Sleeping Cyclops - Optional Cave encounter)"
+    ]
   },
   {
     "Name": "Tangalore",
@@ -1652,7 +1706,24 @@
     "Weaknesses": [
       "Ogroid Oil"
     ],
-    "Loot": []
+    "Loot": [
+      "Cave troll liver",
+      "Cave troll trophy",
+      "Caroline",
+      "Infused shard",
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster ear",
+      "Monster eye",
+      "Monster hair",
+      "Monster heart",
+      "Monster saliva",
+      "Monster tongue",
+      "Monster tooth",
+      "Troll hide",
+      "Troll mutagen"
+    ]
   },
   {
     "Name": "White Lady",
@@ -1713,7 +1784,16 @@
     "Weaknesses": [
       "(info here)"
     ],
-    "Loot": []
+    "Loot": [
+      "Ancient leshen mutagen",
+      "Hardened timber",
+      "Infused shard",
+      "Fiber",
+      "Leshen resin",
+      "Leshen trophy",
+      "Monster bone",
+      "Powdered monster tissue"
+    ]
   },
   {
     "Name": "Wolf",
@@ -1835,7 +1915,9 @@
       "Igni",
       "Cursed Oil"
     ],
-    "Loot": []
+    "Loot": [
+      "None (Story Boss - Cutscene)"
+    ]
   },
   {
     "Name": "Slyzard Matriarch",
@@ -1876,7 +1958,22 @@
       "Black Blood",
       "Yrden"
     ],
-    "Loot": []
+    "Loot": [
+      "Blue mutagen",
+      "Monster brain",
+      "Monster bone",
+      "Monster claw",
+      "Monster eye",
+      "Monster ear",
+      "Monster hair",
+      "Monster heart",
+      "Monster liver",
+      "Monster stomach",
+      "Monster tongue",
+      "Vampire blood",
+      "Vampire saliva",
+      "Vampire fang"
+    ]
   },
   {
     "Name": "Arachnomorph",
@@ -1888,7 +1985,18 @@
       "Insectoid Oil",
       "Axii"
     ],
-    "Loot": []
+    "Loot": [
+      "Chitinous shell",
+      "Lesser blue mutagen",
+      "Lesser green mutagen",
+      "Lesser red mutagen",
+      "Monster blood",
+      "Monster hair",
+      "Monster saliva",
+      "Monster tooth",
+      "Venom extract",
+      "Monster heart"
+    ]
   },
   {
     "Name": "Barghest",
@@ -1902,7 +2010,14 @@
       "Axii",
       "Yrden"
     ],
-    "Loot": []
+    "Loot": [
+      "Barghest essence",
+      "Emerald dust",
+      "Infused dust",
+      "Lesser blue mutagen",
+      "Sapphire dust",
+      "Specter dust"
+    ]
   },
   {
     "Name": "Bruxa",
@@ -1916,7 +2031,22 @@
       "Moon Dust",
       "Yrden"
     ],
-    "Loot": []
+    "Loot": [
+      "Blue mutagen",
+      "Monster brain",
+      "Monster bone",
+      "Monster claw",
+      "Monster eye",
+      "Monster ear",
+      "Monster hair",
+      "Monster heart",
+      "Monster liver",
+      "Monster stomach",
+      "Monster tongue",
+      "Vampire blood",
+      "Vampire fang",
+      "Vampire saliva"
+    ]
   },
   {
     "Name": "Detlaff Van Der Eretein",
@@ -1948,7 +2078,9 @@
       "Yrden",
       "Aard"
     ],
-    "Loot": []
+    "Loot": [
+      "None (Olgierd Nightmare - Cutscene)"
+    ]
   },
   {
     "Name": "Fleder",
@@ -1960,7 +2092,22 @@
       "Vampire oils",
       "Black blood"
     ],
-    "Loot": []
+    "Loot": [
+      "Lesser red mutagen",
+      "Monster bone",
+      "Monster brain",
+      "Monster claw",
+      "Monster ear",
+      "Monster eye",
+      "Monster hair",
+      "Monster heart",
+      "Monster liver",
+      "Monster stomach",
+      "Monster tongue",
+      "Vampire blood",
+      "Vampire fang",
+      "Vampire saliva"
+    ]
   },
   {
     "Name": "Garkain",
@@ -1974,7 +2121,22 @@
       "Vampire oil",
       "Black blood"
     ],
-    "Loot": []
+    "Loot": [
+      "Monster bone",
+      "Monster brain",
+      "Monster claw",
+      "Monster ear",
+      "Monster eye",
+      "Monster hair",
+      "Monster heart",
+      "Monster liver",
+      "Monster stomach",
+      "Monster tongue",
+      "Red mutagen",
+      "Vampire blood",
+      "Vampire fang",
+      "Vampire saliva"
+    ]
   },
   {
     "Name": "Giant Centipede",
@@ -1986,7 +2148,14 @@
       "Insectoid oils",
       "Yrden"
     ],
-    "Loot": []
+    "Loot": [
+      "Acid extract",
+      "Chitinous shell",
+      "Giant centipede discharge",
+      "Giant centipede mandible",
+      "Monster blood",
+      "Monster carapace"
+    ]
   },
   {
     "Name": "Golyat",
@@ -1999,7 +2168,29 @@
       "Quen",
       "Yrden"
     ],
-    "Loot": []
+    "Loot": [
+      "Dahlia",
+      "Floren",
+      "Infused shard",
+      "Golyat trophy",
+      "Greater red mutagen",
+      "Lesser Glyph of Aard",
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster essence",
+      "Monster ear",
+      "Monster eye",
+      "Monster hair",
+      "Monster heart",
+      "Monster liver",
+      "Monster saliva",
+      "Monster tongue",
+      "Monster tooth",
+      "Old bear skin",
+      "Old goat skin",
+      "Old sheep skin"
+    ]
   },
   {
     "Name": "Kernun",
@@ -2062,7 +2253,21 @@
       "Vampire oils",
       "Black blood"
     ],
-    "Loot": []
+    "Loot": [
+      "Protofleder mutagen",
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster ear",
+      "Monster eye",
+      "Monster hair",
+      "Monster heart",
+      "Monster hide",
+      "Monster liver",
+      "Monster tongue",
+      "Vampire fang",
+      "Vampire saliva"
+    ]
   },
   {
     "Name": "Scurver",
@@ -2073,7 +2278,17 @@
     "Weaknesses": [
       "Necrophage Oil"
     ],
-    "Loot": []
+    "Loot": [
+      "Monster bone",
+      "Monster brain",
+      "Monster heart",
+      "Monster liver",
+      "Monster saliva",
+      "Monster tongue",
+      "Monster tooth",
+      "Necrophage hide",
+      "Rotfiend blood"
+    ]
   },
   {
     "Name": "Shaelmaar",
@@ -2087,7 +2302,11 @@
       "Aard",
       "Dragon's Dream"
     ],
-    "Loot": []
+    "Loot": [
+      "Greater blue mutagen",
+      "Infused shard",
+      "Monster carapace"
+    ]
   },
   {
     "Name": "Shaelmaar from the emperor of Nilfgaard",
@@ -2100,7 +2319,9 @@
       "Relict oil",
       "Aard"
     ],
-    "Loot": []
+    "Loot": [
+      "None (Tourney Arena Boss - Cutscene)"
+    ]
   },
   {
     "Name": "Spotted Wight",
@@ -2113,7 +2334,25 @@
       "Silver Sword",
       "Necrophage Oil"
     ],
-    "Loot": []
+    "Loot": [
+      "Disgusting wight key",
+      "Fork",
+      "Greater green mutagen",
+      "Greater Triglav runestone",
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster claw",
+      "Monster heart",
+      "Monster liver",
+      "Monster saliva",
+      "Monster stomach",
+      "Monster tongue",
+      "Wight ear",
+      "Wight hair",
+      "Wight saliva gland",
+      "Wight trophy"
+    ]
   },
   {
     "Name": "The Caretaker",
@@ -2126,7 +2365,9 @@
       "Relict Oil",
       "Superior Northern Wind"
     ],
-    "Loot": []
+    "Loot": [
+      "The Caretaker's spade"
+    ]
   },
   {
     "Name": "The Dragon of Fyresdal",
@@ -2157,7 +2398,9 @@
       "Specter Oil",
       "Quen"
     ],
-    "Loot": []
+    "Loot": [
+      "None (Iris' Memory Boss)"
+    ]
   },
   {
     "Name": "Wight",
@@ -2169,6 +2412,21 @@
       "Necrophage Oil",
       "Axii"
     ],
-    "Loot": []
+    "Loot": [
+      "Greater Triglav runestone",
+      "Green mutagen",
+      "Monster blood",
+      "Monster bone",
+      "Monster brain",
+      "Monster claw",
+      "Monster essence",
+      "Monster heart",
+      "Monster liver",
+      "Monster saliva",
+      "Monster stomach",
+      "Monster tongue",
+      "Wight ear",
+      "Wight hair"
+    ]
   }
 ]

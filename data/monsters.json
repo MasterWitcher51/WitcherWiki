@@ -110,7 +110,7 @@
   },
   {
     "Name": "Bear",
-    "Class": "Unknown",
+    "Class": "Beasts",
     "Location": [
       "Places of Power"
     ],
@@ -274,7 +274,7 @@
   },
   {
     "Name": "Devourer",
-    "Class": "Unknown",
+    "Class": "Necrophage",
     "Location": [],
     "Weaknesses": [],
     "Loot": [
@@ -305,7 +305,7 @@
   },
   {
     "Name": "Dog",
-    "Class": "Unknown",
+    "Class": "Beasts",
     "Location": [
       "Velen",
       "Novigrad",
@@ -334,7 +334,7 @@
   },
   {
     "Name": "Drowner",
-    "Class": "Unknown",
+    "Class": "Necrophage",
     "Location": [
       "White Orchard"
     ],
@@ -353,7 +353,7 @@
   },
   {
     "Name": "Drowned Dead",
-    "Class": "Unknown",
+    "Class": "Necrophage",
     "Location": [
       "Nighttime on the banks of ponds",
       "lakes and rivers"
@@ -516,7 +516,7 @@
   },
   {
     "Name": "Fiend",
-    "Class": "Unknown",
+    "Class": "Relict",
     "Location": [
       "Kimbolt Way"
     ],
@@ -736,7 +736,7 @@
   },
   {
     "Name": "Griffin",
-    "Class": "Unknown",
+    "Class": "Hybrid",
     "Location": [
       "White Orchard"
     ],
@@ -898,7 +898,7 @@
   },
   {
     "Name": "Ice Giant",
-    "Class": "Unknown",
+    "Class": "Ogroid",
     "Location": [
       "Undvik"
     ],
@@ -1151,7 +1151,7 @@
   },
   {
     "Name": "Mucknixer",
-    "Class": "Unknown",
+    "Class": "Necrophage",
     "Location": [
       "Velen"
     ],
@@ -1648,7 +1648,7 @@
   },
   {
     "Name": "Warg",
-    "Class": "Unknown",
+    "Class": "Beasts",
     "Location": [
       "Velen"
     ],
@@ -1833,7 +1833,7 @@
   },
   {
     "Name": "Wyvern",
-    "Class": "Unknown",
+    "Class": "Draconid",
     "Location": [
       "Around and south of Crookback Bog"
     ],
@@ -1859,7 +1859,7 @@
   },
   {
     "Name": "Panther",
-    "Class": "",
+    "Class": "Beasts",
     "Location": [
       "Toussaint"
     ],
@@ -1874,7 +1874,7 @@
   },
   {
     "Name": "Wild Boar",
-    "Class": "Unknown",
+    "Class": "Beasts",
     "Location": [
       "Forrests"
     ],
@@ -1906,7 +1906,7 @@
   },
   {
     "Name": "The Toad Prince",
-    "Class": "Unknown",
+    "Class": "Cursed One",
     "Location": [
       "Oxenfurt Sewers"
     ],
@@ -1934,7 +1934,7 @@
   },
   {
     "Name": "Slyzard",
-    "Class": "Unknown",
+    "Class": "Draconid",
     "Location": [
       "??"
     ],
@@ -2067,7 +2067,7 @@
   },
   {
     "Name": "Ethereal",
-    "Class": "Unknown",
+    "Class": "Specters",
     "Location": [
       "Von Everec Estate"
     ],
@@ -2159,7 +2159,7 @@
   },
   {
     "Name": "Golyat",
-    "Class": "Unknown",
+    "Class": "Ogroid",
     "Location": [
       "Dulcinea Windmill"
     ],
@@ -2292,7 +2292,7 @@
   },
   {
     "Name": "Shaelmaar",
-    "Class": "Unknown",
+    "Class": "Relict",
     "Location": [
       "Toussaint"
     ],
@@ -2325,7 +2325,7 @@
   },
   {
     "Name": "Spotted Wight",
-    "Class": "Unknown",
+    "Class": "Necrophage",
     "Location": [
       "Toussaint"
     ],
@@ -2356,7 +2356,7 @@
   },
   {
     "Name": "The Caretaker",
-    "Class": "Unknown",
+    "Class": "Relict",
     "Location": [
       "Von Everec Estate"
     ],
@@ -2389,7 +2389,7 @@
   },
   {
     "Name": "The Wraith from the Painting",
-    "Class": "Unknown",
+    "Class": "Specters",
     "Location": [
       "Von Everec Estate"
     ],

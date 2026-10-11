@@ -1,0 +1,918 @@
+[
+  {
+    "name": "Enhanced White Raffard's Decoction",
+    "type": "Decoction",
+    "effect": "Immediately restores a large portion of Vitality. 60% Vitality",
+    "toxicity": 25,
+    "monster_ingredient": "Nekker heart",
+    "all_ingredients": [
+      "Alcohest",
+      "White Raffard's Decoction",
+      "Ribleaf",
+      "Bryonia",
+      "Nekker heart"
+    ],
+    "target_monsters": [
+      "Nekker",
+      "Nekker Warrior"
+    ]
+  },
+  {
+    "name": "Superior White Raffard's Decoction",
+    "type": "Decoction",
+    "effect": "Restores Vitality immediately and fully. Grants immunity to damage for a short duration. 100% Vitality",
+    "toxicity": 25,
+    "monster_ingredient": "Superior White Raffard's mutagen",
+    "all_ingredients": [
+      "White gull",
+      "Enhanced White Raffard's Decoction",
+      "Ribleaf",
+      "Bryonia",
+      "Pringrape",
+      "Bison grass",
+      "Vermilion"
+    ],
+    "target_monsters": [
+      "White Lady",
+      "White Wolf"
+    ]
+  },
+  {
+    "name": "Werewolf Decoction",
+    "type": "Decoction",
+    "effect": "Running, sprinting and jumping outside combat does not drain Stamina.",
+    "toxicity": 50,
+    "monster_ingredient": "Werewolf mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Werewolf mutagen",
+      "Beggartick blossoms",
+      "Hop umbels"
+    ],
+    "target_monsters": [
+      "Ulfhedinn",
+      "Werewolf"
+    ]
+  },
+  {
+    "name": "Basilisk Decoction",
+    "type": "Decoction",
+    "effect": "Applies a buff increasing the intensity of a randomly selected Sign at dusk and dawn. Lasts longer than other mutagen decoctions.",
+    "toxicity": 40,
+    "monster_ingredient": "Basilisk mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Basilisk mutagen",
+      "Blowball",
+      "Fool's parsley leaves",
+      "Beggartick blossoms"
+    ],
+    "target_monsters": [
+      "Basilisk"
+    ]
+  },
+  {
+    "name": "Cockatrice Decoction",
+    "type": "Decoction",
+    "effect": "All alchemy creations can be used one additional time.",
+    "toxicity": 50,
+    "monster_ingredient": "Cockatrice mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Cockatrice mutagen",
+      "Crow's eye"
+    ],
+    "target_monsters": [
+      "Cockatrice",
+      "Shrieker"
+    ]
+  },
+  {
+    "name": "Forktail Decoction",
+    "type": "Decoction",
+    "effect": "Combining various attacks (strong strikes, fast strikes, Signs) grants a bonus that increases Attack Power for the next attack mounted or Sign Intensity for the next Sign cast. 50% Attack power 50% Sign intensity",
+    "toxicity": 50,
+    "monster_ingredient": "Forktail mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Forktail mutagen",
+      "Moleyarrow",
+      "Bryonia"
+    ],
+    "target_monsters": [
+      "Forktail",
+      "Spotted Wight",
+      "The Dragon of Fyresdal"
+    ]
+  },
+  {
+    "name": "Wyvern Decoction",
+    "type": "Decoction",
+    "effect": "Each blow landed increases Attack Power until either the fight ends or damage (other than that from Toxicity) is taken. 1% Attack power",
+    "toxicity": 50,
+    "monster_ingredient": "Wyvern mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Wyvern mutagen",
+      "Moleyarrow",
+      "Celandine"
+    ],
+    "target_monsters": [
+      "Royal Wyvern",
+      "Wyvern"
+    ]
+  },
+  {
+    "name": "Earth Elemental Decoction",
+    "type": "Decoction",
+    "effect": "Increases the witcher's resistance to Vitality-depleting critical effects applied during combat. The resistance level rises the longer the critical effect is applied.",
+    "toxicity": 50,
+    "monster_ingredient": "Earth elemental mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Earth elemental mutagen",
+      "Balisse fruit",
+      "Pringrape"
+    ],
+    "target_monsters": [
+      "D'ao",
+      "Earth Elemental",
+      "Fire Elemental",
+      "Ice Elemental",
+      "Therazane"
+    ]
+  },
+  {
+    "name": "Archgriffin Decoction",
+    "type": "Decoction",
+    "effect": "If any Stamina is available, strong attacks consume all of it and reduce the struck foe's Vitality by 5% after their normal damage is calculated.",
+    "toxicity": 50,
+    "monster_ingredient": "Archgriffin mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Archgriffin mutagen",
+      "Ribleaf",
+      "Blowball"
+    ],
+    "target_monsters": [
+      "Archgriffin",
+      "Griffin",
+      "Royal Griffin"
+    ]
+  },
+  {
+    "name": "Ekhidna Decoction",
+    "type": "Decoction",
+    "effect": "Performing actions that consume Stamina regenerates Vitality.",
+    "toxicity": 50,
+    "monster_ingredient": "Ekhidna mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Ekhidna mutagen",
+      "Ribleaf",
+      "Berbercane fruit"
+    ],
+    "target_monsters": [
+      "Ekhidna",
+      "Melusine"
+    ]
+  },
+  {
+    "name": "Griffin Decoction",
+    "type": "Decoction",
+    "effect": "Taking damage raises damage resistance (up to an upper limit) for the remainder of the fight. 1% Resistance to slashing damage 1% Resistance to piercing damage 1% Resistance to bludgeoning damage 1% Resistance to damage from monsters 1% Resistance to elemental damage",
+    "toxicity": 50,
+    "monster_ingredient": "Griffin mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Griffin mutagen",
+      "Oil",
+      "Bryonia",
+      "Wolf's liver"
+    ],
+    "target_monsters": [
+      "Archgriffin",
+      "Griffin",
+      "Royal Griffin"
+    ]
+  },
+  {
+    "name": "Succubus Decoction",
+    "type": "Decoction",
+    "effect": "Attack Power grows over the course of a fight until reaching a maximum threshold. 1% Attack power",
+    "toxicity": 50,
+    "monster_ingredient": "Succubus mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Succubus mutagen",
+      "Green mold",
+      "Allspice"
+    ],
+    "target_monsters": [
+      "Succubus"
+    ]
+  },
+  {
+    "name": "Arachas Decoction",
+    "type": "Decoction",
+    "effect": "Reduces damage received based on armor and inventory weight: less weight carried and lighter armor means less damage is taken.",
+    "toxicity": 50,
+    "monster_ingredient": "Arachas mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Arachas mutagen",
+      "White myrtle petals"
+    ],
+    "target_monsters": [
+      "Arachas",
+      "Armored Arachas",
+      "Harrisi",
+      "Venomous Arachas"
+    ]
+  },
+  {
+    "name": "Alghoul Decoction",
+    "type": "Decoction",
+    "effect": "Adrenaline Points are generated more quickly than normal until the first successful enemy attack. 50% Adrenaline Point gain",
+    "toxicity": 50,
+    "monster_ingredient": "Lesser red mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Lesser red mutagen",
+      "Alghoul bone marrow",
+      "Buckthorn"
+    ],
+    "target_monsters": [
+      "Fiend",
+      "The Apiarian Phantom",
+      "Arachnomorph",
+      "Fleder",
+      "Garkain"
+    ]
+  },
+  {
+    "name": "Foglet Decoction",
+    "type": "Decoction",
+    "effect": "Increases Sign Intensity during cloudy weather. 25% Sign intensity",
+    "toxicity": 50,
+    "monster_ingredient": "Foglet mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Foglet mutagen",
+      "Fool's parsley leaves",
+      "Blowball"
+    ],
+    "target_monsters": [
+      "Foglet",
+      "Tangalore"
+    ]
+  },
+  {
+    "name": "Grave Hag Decoction",
+    "type": "Decoction",
+    "effect": "Each foe slain accelerates Vitality regeneration for the duration of the battle. Since",
+    "toxicity": 50,
+    "monster_ingredient": "Grave hag mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Grave hag mutagen",
+      "Longrube",
+      "Cortinarius"
+    ],
+    "target_monsters": [
+      "Grave Hag",
+      "Graveir",
+      "Mourntart"
+    ]
+  },
+  {
+    "name": "Water Hag Decoction",
+    "type": "Decoction",
+    "effect": "Damage dealt is increased when Vitality is at its maximum. 50% Increased damage",
+    "toxicity": 50,
+    "monster_ingredient": "Water hag mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Water hag mutagen",
+      "Berbercane fruit"
+    ],
+    "target_monsters": [
+      "Abaya",
+      "Water Hag",
+      "Detlaff Van Der Eretein"
+    ]
+  },
+  {
+    "name": "Nekker Warrior Decoction",
+    "type": "Decoction",
+    "effect": "Mounts never panic. 50% increase to mounted combat damage. 50% Attack power",
+    "toxicity": 50,
+    "monster_ingredient": "Nekker warrior mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Nekker warrior mutagen",
+      "Fool's parsley leaves",
+      "Ranogrin"
+    ],
+    "target_monsters": [
+      "Endrega Warrior",
+      "Nekker",
+      "Nekker Warrior",
+      "Kikimore Warrior"
+    ]
+  },
+  {
+    "name": "Troll Decoction",
+    "type": "Decoction",
+    "effect": "Regenerates Vitality during and outside of combat. 100 Vitality regeneration Since",
+    "toxicity": 50,
+    "monster_ingredient": "Troll mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Troll mutagen",
+      "Crow's eye",
+      "Honeysuckle"
+    ],
+    "target_monsters": [
+      "Cave Troll",
+      "Ice Troll",
+      "Rock Troll",
+      "Wham-a-Wham"
+    ]
+  },
+  {
+    "name": "Ancient Leshen Decoction",
+    "type": "Decoction",
+    "effect": "Each Sign cast increases Stamina regeneration for the remainder of the fight. 2 Stamina regeneration in combat",
+    "toxicity": 50,
+    "monster_ingredient": "Ancient leshen mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Ancient leshen mutagen",
+      "Mandrake root",
+      "Ginatia petals",
+      "Honeysuckle"
+    ],
+    "target_monsters": [
+      "Leshen",
+      "Woodland Spirit",
+      "Kernun"
+    ]
+  },
+  {
+    "name": "Chort Decoction",
+    "type": "Decoction",
+    "effect": "Provides complete resistance to the Stagger effect and reduces the Knock-down effect to Stagger.",
+    "toxicity": 50,
+    "monster_ingredient": "Chort mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Chort mutagen",
+      "Puffball",
+      "Cortinarius"
+    ],
+    "target_monsters": [
+      "Chort"
+    ]
+  },
+  {
+    "name": "Doppler Decoction",
+    "type": "Decoction",
+    "effect": "Increases critical hit damage when attacking from behind. 50% Increased damage",
+    "toxicity": 50,
+    "monster_ingredient": "Doppler mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Doppler mutagen",
+      "Han fiber",
+      "Longrube"
+    ],
+    "target_monsters": [
+      "Doppler",
+      "Imp"
+    ]
+  },
+  {
+    "name": "Fiend Decoction",
+    "type": "Decoction",
+    "effect": "Increases the amount of weight the witcher can carry without being overburdened. 20 Maximum inventory weight",
+    "toxicity": 50,
+    "monster_ingredient": "Fiend mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Fiend mutagen",
+      "Hellebore petals",
+      "Fool's parsley leaves",
+      "Arenaria"
+    ],
+    "target_monsters": [
+      "Fiend",
+      "Morvudd",
+      "Rotfiend"
+    ]
+  },
+  {
+    "name": "Leshen Decoction",
+    "type": "Decoction",
+    "effect": "A portion of the damage dealt by enemies is reflected back on the attacker. 10 Damage returned 10% Damage returned",
+    "toxicity": 70,
+    "monster_ingredient": "Leshen mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Leshen mutagen",
+      "Moleyarrow",
+      "Pringrape"
+    ],
+    "target_monsters": [
+      "Leshen",
+      "Woodland Spirit",
+      "Kernun"
+    ]
+  },
+  {
+    "name": "Nightwraith Decoction",
+    "type": "Decoction",
+    "effect": "Geralt's maximum Vitality is increased with each foe killed. This increase lasts until he meditates or fast travels. 50 Vitality",
+    "toxicity": 50,
+    "monster_ingredient": "Nightwraith mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Nightwraith mutagen",
+      "Mistletoe",
+      "Sewant mushrooms"
+    ],
+    "target_monsters": [
+      "Jenny O' the Woods",
+      "Nightwraith",
+      "Penitent",
+      "Pesta",
+      "Plague Maiden"
+    ]
+  },
+  {
+    "name": "Noonwraith Decoction",
+    "type": "Decoction",
+    "effect": "Significantly limits the duration of Knockdown, Hypnosis, Stun and Blindness.",
+    "toxicity": 50,
+    "monster_ingredient": "Noonwraith mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Noonwraith mutagen",
+      "Ginatia petals",
+      "Ergot seeds"
+    ],
+    "target_monsters": [
+      "Noonwraith",
+      "Penitent",
+      "Pesta",
+      "Plague Maiden",
+      "White Lady"
+    ]
+  },
+  {
+    "name": "Wraith Decoction",
+    "type": "Decoction",
+    "effect": "Whenever a single hit drains more than a third of Vitality, a Quen shield is activated which protects against the next attack.",
+    "toxicity": 50,
+    "monster_ingredient": "Wraith mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Wraith mutagen",
+      "Blowball",
+      "Nostrix"
+    ],
+    "target_monsters": [
+      "Jenny O' the Woods",
+      "Nightwraith",
+      "Noonwraith",
+      "Penitent",
+      "Pesta"
+    ]
+  },
+  {
+    "name": "Ekimmara Decoction",
+    "type": "Decoction",
+    "effect": "Damage dealt to foes regenerates Vitality. 10% Vitality drain",
+    "toxicity": 50,
+    "monster_ingredient": "Ekimmara mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Ekimmara mutagen",
+      "White myrtle petals",
+      "Mandrake root"
+    ],
+    "target_monsters": [
+      "Ekimmara"
+    ]
+  },
+  {
+    "name": "Katakan Decoction",
+    "type": "Decoction",
+    "effect": "Increases critical hit chance. 10% Critical hit chance",
+    "toxicity": 50,
+    "monster_ingredient": "Katakan mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Katakan mutagen",
+      "Verbena",
+      "Arenaria"
+    ],
+    "target_monsters": [
+      "Gael",
+      "Katakan"
+    ]
+  },
+  {
+    "name": "Reliever's Decoction",
+    "type": "Decoction",
+    "effect": "Increases damage dealt and decreases damage taken against wraiths. Attacking a specter prevents it from using its abilities and turning immaterial.",
+    "toxicity": 50,
+    "monster_ingredient": "Lesser red mutagen",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Lesser red mutagen",
+      "Lesser green mutagen",
+      "Lesser blue mutagen",
+      "Essence of wraith"
+    ],
+    "target_monsters": [
+      "Fiend",
+      "The Apiarian Phantom",
+      "Arachnomorph",
+      "Fleder",
+      "Garkain"
+    ]
+  },
+  {
+    "name": "Swallow",
+    "type": "Potion",
+    "effect": "Accelerates the regeneration of Vitality",
+    "toxicity": 25,
+    "monster_ingredient": "Monster Remains",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Celandine",
+      "Drowner brain"
+    ],
+    "target_monsters": []
+  },
+  {
+    "name": "Thunderbolt",
+    "type": "Potion",
+    "effect": "Damage +100% Parry -50% Dodge -50%",
+    "toxicity": 50,
+    "monster_ingredient": "Monster Remains",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Cortinarius",
+      "Endrega embryo"
+    ],
+    "target_monsters": []
+  },
+  {
+    "name": "Tawny Owl",
+    "type": "Potion",
+    "effect": "Significantly increases Endurance regeneration",
+    "toxicity": 25,
+    "monster_ingredient": "Arachas venom",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Verbena",
+      "Arachas venom"
+    ],
+    "target_monsters": [
+      "Arachas",
+      "Armored Arachas",
+      "Harrisi",
+      "Venomous Arachas"
+    ]
+  },
+  {
+    "name": "Cat",
+    "type": "Potion",
+    "effect": "See in the dark",
+    "toxicity": 25,
+    "monster_ingredient": "Monster Remains",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Berbercane fruit",
+      "Water essence"
+    ],
+    "target_monsters": []
+  },
+  {
+    "name": "White Raffard's Decoction",
+    "type": "Decoction",
+    "effect": "Immediately restores a majority of Vitality lost through combat",
+    "toxicity": 50,
+    "monster_ingredient": "Nekker heart",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Ribleaf",
+      "Nekker heart"
+    ],
+    "target_monsters": [
+      "Nekker",
+      "Nekker Warrior"
+    ]
+  },
+  {
+    "name": "Black Blood",
+    "type": "Potion",
+    "effect": "Blood becomes lethal to monsters which drink it",
+    "toxicity": 25,
+    "monster_ingredient": "Ghoul's blood",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Sewant mushrooms",
+      "Ghoul's blood"
+    ],
+    "target_monsters": [
+      "Ghoul",
+      "Graveir"
+    ]
+  },
+  {
+    "name": "Golden Oriole",
+    "type": "Potion",
+    "effect": "Renders immune to poison and neutralizes the effects of poisons already present in the bloodstream",
+    "toxicity": 25,
+    "monster_ingredient": "Monster Remains",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Blowball",
+      "Light essence"
+    ],
+    "target_monsters": []
+  },
+  {
+    "name": "Blizzard",
+    "type": "Potion",
+    "effect": "Improves reflexes and reaction time",
+    "toxicity": 20,
+    "monster_ingredient": "Golem's heart",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "White myrtle petals",
+      "Golem's heart"
+    ],
+    "target_monsters": []
+  },
+  {
+    "name": "Maribor Forest",
+    "type": "Potion",
+    "effect": "Significantly increases maximum Endurance",
+    "toxicity": 40,
+    "monster_ingredient": "Alghoul bone marrow",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Berbercane fruit",
+      "Alghoul bone marrow",
+      "Drowner tongue"
+    ],
+    "target_monsters": [
+      "Alghoul"
+    ]
+  },
+  {
+    "name": "Petri's Philter",
+    "type": "Potion",
+    "effect": "Increases intensity of all Signs",
+    "toxicity": 50,
+    "monster_ingredient": "Monster Remains",
+    "all_ingredients": [
+      "Dwarven spirit",
+      "Arenaria",
+      "Specter dust"
+    ],
+    "target_monsters": []
+  },
+  {
+    "name": "Beast Oil",
+    "type": "Blade Oil",
+    "effect": "10% Attack power versus Beasts",
+    "toxicity": 0,
+    "monster_ingredient": "Wolf's liver",
+    "all_ingredients": [
+      "Dog tallow",
+      "Wolf's liver"
+    ],
+    "target_monsters": [
+      "Warg",
+      "White Wolf",
+      "Wolf"
+    ]
+  },
+  {
+    "name": "Superior Beast Oil",
+    "type": "Blade Oil",
+    "effect": "50% Attack power versus Beasts",
+    "toxicity": 0,
+    "monster_ingredient": "Cockatrice stomach",
+    "all_ingredients": [
+      "Alchemy paste",
+      "Enhanced beast oil",
+      "Cockatrice stomach",
+      "Celandine",
+      "Puffball",
+      "Bison grass",
+      "Rubedo"
+    ],
+    "target_monsters": [
+      "Cockatrice",
+      "Shrieker"
+    ]
+  },
+  {
+    "name": "Cursed Oil",
+    "type": "Blade Oil",
+    "effect": "10% Attack power versus Cursed Ones",
+    "toxicity": 0,
+    "monster_ingredient": "Monster Remains",
+    "all_ingredients": [
+      "Dog tallow",
+      "Wolfsbane"
+    ],
+    "target_monsters": []
+  },
+  {
+    "name": "Superior Cursed Oil",
+    "type": "Blade Oil",
+    "effect": "50% Attack power versus Cursed Ones",
+    "toxicity": 0,
+    "monster_ingredient": "Ekimmara hide",
+    "all_ingredients": [
+      "Alchemy paste",
+      "Enhanced cursed oil",
+      "Ekimmara hide",
+      "Cave troll liver",
+      "Wolfsbane",
+      "Mistletoe",
+      "Rubedo"
+    ],
+    "target_monsters": [
+      "Ekimmara",
+      "Sarasti"
+    ]
+  },
+  {
+    "name": "Draconid Oil",
+    "type": "Blade Oil",
+    "effect": "10% Attack power versus Draconids",
+    "toxicity": 0,
+    "monster_ingredient": "Monster Remains",
+    "all_ingredients": [
+      "Dog tallow",
+      "Ergot seeds"
+    ],
+    "target_monsters": []
+  },
+  {
+    "name": "Superior Draconid Oil",
+    "type": "Blade Oil",
+    "effect": "50% Attack power versus Draconids",
+    "toxicity": 0,
+    "monster_ingredient": "Cockatrice stomach",
+    "all_ingredients": [
+      "Alchemy paste",
+      "Enhanced draconid oil",
+      "Cockatrice stomach",
+      "Nekker warrior's liver",
+      "Nostrix",
+      "Bryonia",
+      "Albedo"
+    ],
+    "target_monsters": [
+      "Cockatrice",
+      "Shrieker"
+    ]
+  },
+  {
+    "name": "Elementa Oil",
+    "type": "Blade Oil",
+    "effect": "10% Attack power versus Elementa",
+    "toxicity": 0,
+    "monster_ingredient": "Monster Remains",
+    "all_ingredients": [
+      "Dog tallow",
+      "Puffball"
+    ],
+    "target_monsters": []
+  },
+  {
+    "name": "Superior Elementa Oil",
+    "type": "Blade Oil",
+    "effect": "50% Attack power versus Elementa",
+    "toxicity": 0,
+    "monster_ingredient": "Monster Remains",
+    "all_ingredients": [
+      "Alchemy paste",
+      "Enhanced elementa oil",
+      "Nostrix",
+      "Essence of wraith",
+      "Allspice",
+      "Honeysuckle",
+      "Albedo"
+    ],
+    "target_monsters": []
+  },
+  {
+    "name": "Hybrid Oil",
+    "type": "Blade Oil",
+    "effect": "10% Attack power versus Hybrids",
+    "toxicity": 0,
+    "monster_ingredient": "Monster Remains",
+    "all_ingredients": [
+      "Dog tallow",
+      "White myrtle petals"
+    ],
+    "target_monsters": []
+  },
+  {
+    "name": "Superior Hybrid Oil",
+    "type": "Blade Oil",
+    "effect": "50% Attack power versus Hybrids",
+    "toxicity": 0,
+    "monster_ingredient": "Erynia eye",
+    "all_ingredients": [
+      "Alchemy paste",
+      "Enhanced hybrid oil",
+      "Erynia eye",
+      "Ginatia petals",
+      "White myrtle petals",
+      "Bison grass",
+      "Albedo"
+    ],
+    "target_monsters": [
+      "Erynia"
+    ]
+  },
+  {
+    "name": "Ogroid Oil",
+    "type": "Blade Oil",
+    "effect": "10% Attack power versus Ogroids",
+    "toxicity": 0,
+    "monster_ingredient": "Bear fat",
+    "all_ingredients": [
+      "Bear fat",
+      "Ginatia petals"
+    ],
+    "target_monsters": [
+      "Bear",
+      "Berserker"
+    ]
+  },
+  {
+    "name": "Superior Ogroid Oil",
+    "type": "Blade Oil",
+    "effect": "50% Attack power versus Ogroids",
+    "toxicity": 0,
+    "monster_ingredient": "Cave troll liver",
+    "all_ingredients": [
+      "Alchemy paste",
+      "Enhanced ogroid oil",
+      "Cave troll liver",
+      "Arenaria",
+      "Ranogrin",
+      "Ribleaf",
+      "Aether"
+    ],
+    "target_monsters": [
+      "Cave Troll",
+      "Ice Troll",
+      "Rock Troll",
+      "Wham-a-Wham"
+    ]
+  },
+  {
+    "name": "Relict Oil",
+    "type": "Blade Oil",
+    "effect": "10% Attack power versus Relicts",
+    "toxicity": 0,
+    "monster_ingredient": "Monster Remains",
+    "all_ingredients": [
+      "Dog tallow",
+      "Mistletoe"
+    ],
+    "target_monsters": []
+  },
+  {
+    "name": "Superior Relict Oil",
+    "type": "Blade Oil",
+    "effect": "50% Attack power versus Relicts",
+    "toxicity": 0,
+    "monster_ingredient": "Devourer's blood",
+    "all_ingredients": [
+      "Alchemy paste",
+      "Enhanced relict oil",
+      "Devourer's blood",
+      "Hop umbels",
+      "Beggartick blossoms",
+      "Green mold",
+      "Nigredo"
+    ],
+    "target_monsters": [
+      "Devourer"
+    ]
+  }
+]

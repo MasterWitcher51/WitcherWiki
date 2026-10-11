@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Witcher 3: Wild Hunt - Bestiary Compendium</title>
+  <meta name="description" content="Explore all 130 creatures, monsters, weaknesses, signs, and loot in The Witcher 3: Wild Hunt interactive bestiary.">
+  
+  <!-- Favicon & Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Cinzel+Decorative:wght@700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet & Tooltips -->
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/dist/tippy.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body>
+
+  <!-- Ambient Runic Background Overlay -->
+  <div class="runic-background"></div>
+  <div class="mist-overlay"></div>
+
+  <!-- Header & Navigation -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo-group">
+        <div class="wolf-medallion-icon">
+          <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="2">
+            <!-- Stylized Witcher Medallion SVG -->
+            <polygon points="50,12 85,38 72,82 50,96 28,82 15,38" stroke="#d4af37" stroke-width="2.5" fill="#151821"/>
+            <polygon points="50,22 75,42 66,74 50,86 34,74 25,42" stroke="#b91c1c" stroke-width="1.5" fill="#0d1017"/>
+            <circle cx="40" cy="48" r="4" fill="#e63946"/>
+            <circle cx="60" cy="48" r="4" fill="#e63946"/>
+            <path d="M50,44 L50,66 M42,66 L58,66 M44,72 L56,72" stroke="#d4af37" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <h1 class="main-title">THE WITCHER 3</h1>
+          <span class="sub-title">BESTIARY COMPENDIUM</span>
+        </div>
+      </div>
+
+      <!-- Header Action Buttons -->
+      <div class="header-actions">
+        <button id="alchemy-btn" class="btn btn-secondary" title="Explore the Witcher Alchemy Lab (Decoctions & Oils)">
+          <span class="btn-icon">⚗️</span> Alchemy Lab
+        </button>
+        <button id="random-btn" class="btn btn-secondary" title="Draw a random monster encounter from the Path">
+          <span class="btn-icon">🎲</span> Random Encounter
+        </button>
+        <button id="prep-mode-btn" class="btn btn-primary" title="Launch Geralt's Combat Preparation Calculator">
+          <span class="btn-icon">⚔️</span> Combat Prep
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="main-container">
+
+    <!-- Hero / Stats Banner -->
+    <section class="hero-stats-section">
+      <div class="stats-card">
+        <span class="stat-number" id="stat-total-monsters">130</span>
+        <span class="stat-label">Creatures & Monsters</span>
+      </div>
+      <div class="stats-card">
+        <span class="stat-number" id="stat-total-classes">12</span>
+        <span class="stat-label">Beast Classes</span>
+      </div>
+      <div class="stats-card">
+        <span class="stat-number" id="stat-total-alchemy">54</span>
+        <span class="stat-label">Alchemy Recipes</span>
+      </div>
+      <div class="stats-card">
+        <span class="stat-number" id="stat-total-loot">--</span>
+        <span class="stat-label">Cataloged Loot Types</span>
+      </div>
+    </section>
+
+
+    <!-- Search & Filter Controls -->
+    <section class="controls-section" aria-label="Search and Filters">
+      <!-- Search Input -->
+      <div class="search-bar-wrapper">
+        <span class="search-icon">🔍</span>
+        <input 
+          type="text" 
+          id="search-input" 
+          class="search-input" 
+          placeholder="Search by monster name, class, loot (e.g. mutagen), location, or weakness..." 
+          autocomplete="off"
+        >
+        <button id="clear-search-btn" class="clear-btn" aria-label="Clear Search" style="display: none;">✕</button>
+      </div>
+
+      <!-- Quick Sign Filters -->
+      <div class="sign-filters-bar">
+        <span class="filter-group-title">Witcher Sign Vulnerability:</span>
+        <div class="sign-buttons" id="sign-filters">
+          <button class="sign-pill sign-igni" data-sign="igni">
+            <span class="sign-symbol">🔥</span> Igni
+          </button>
+          <button class="sign-pill sign-quen" data-sign="quen">
+            <span class="sign-symbol">🛡️</span> Quen
+          </button>
+          <button class="sign-pill sign-aard" data-sign="aard">
+            <span class="sign-symbol">💨</span> Aard
+          </button>
+          <button class="sign-pill sign-axii" data-sign="axii">
+            <span class="sign-symbol">💫</span> Axii
+          </button>
+          <button class="sign-pill sign-yrden" data-sign="yrden">
+            <span class="sign-symbol">🔮</span> Yrden
+          </button>
+          <button class="sign-pill sign-oil" data-sign="oil">
+            <span class="sign-symbol">🧪</span> Blade Oils
+          </button>
+          <button class="sign-pill sign-bomb" data-sign="bomb">
+            <span class="sign-symbol">💣</span> Bombs
+          </button>
+        </div>
+      </div>
+
+      <!-- Class Category Pills -->
+      <div class="class-filters-bar">
+        <span class="filter-group-title">Creature Class:</span>
+        <div class="class-pills" id="class-filters">
+          <button class="class-pill active" data-class="all">All (130)</button>
+          <!-- Dynamically populated or static pills -->
+          <button class="class-pill" data-class="beast">Beasts</button>
+          <button class="class-pill" data-class="cursed">Cursed Ones</button>
+          <button class="class-pill" data-class="draconid">Draconids</button>
+          <button class="class-pill" data-class="elementa">Elementa</button>
+          <button class="class-pill" data-class="hybrid">Hybrids</button>
+          <button class="class-pill" data-class="insectoid">Insectoids</button>
+          <button class="class-pill" data-class="necrophage">Necrophages</button>
+          <button class="class-pill" data-class="ogroid">Ogroids</button>
+          <button class="class-pill" data-class="relict">Relicts</button>
+          <button class="class-pill" data-class="specter">Specters</button>
+          <button class="class-pill" data-class="vampire">Vampires</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results Status Bar -->
+    <div class="results-meta-bar">
+      <div class="results-count" id="results-count">Showing 130 monsters</div>
+      <div class="active-filter-tags" id="active-filter-tags"></div>
+      <button id="reset-filters-btn" class="reset-link" style="display: none;">Reset all filters</button>
+    </div>
+
+    <!-- Monster Grid -->
+    <section class="monsters-grid" id="monsters-grid" aria-live="polite">
+      <!-- Monster Cards will be generated via JavaScript -->
+      <div class="loading-state">
+        <div class="spinner"></div>
+        <p>Consulting the Bestiary archives...</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Detailed Monster Dossier Modal -->
+  <div class="modal-backdrop" id="dossier-modal" aria-hidden="true" role="dialog">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close Dossier">✕</button>
+      
+      <div class="dossier-header">
+        <div class="dossier-badge" id="modal-class-badge">Necrophage</div>
+        <h2 class="dossier-title" id="modal-monster-name">Grave Hag</h2>
+        <div class="dossier-locations" id="modal-locations">Locations: Velen, White Orchard</div>
+      </div>
+
+      <div class="dossier-body">
+        <!-- Geralt's Combat Tactics Box -->
+        <div class="tactics-box">
+          <div class="tactics-title">⚔️ Geralt's Battle Preparation</div>
+          <div class="tactics-grid">
+            <div class="tactic-item">
+              <span class="tactic-label">Recommended Blade:</span>
+              <span class="tactic-val" id="modal-sword-type">Silver Sword</span>
+            </div>
+            <div class="tactic-item">
+              <span class="tactic-label">Primary Blade Oil:</span>
+              <span class="tactic-val" id="modal-tactics-oil">Necrophage Oil</span>
+            </div>
+            <div class="tactic-item">
+              <span class="tactic-label">Recommended Sign:</span>
+              <span class="tactic-val" id="modal-tactics-sign">Igni / Yrden</span>
+            </div>
+            <div class="tactic-item">
+              <span class="tactic-label">Effective Bombs:</span>
+              <span class="tactic-val" id="modal-tactics-bomb">Northern Wind</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Full Weaknesses -->
+        <div class="dossier-section">
+          <h3 class="section-title">Known Vulnerabilities</h3>
+          <div class="tags-container" id="modal-weaknesses-tags"></div>
+        </div>
+
+        <!-- Full Loot Drops -->
+        <div class="dossier-section">
+          <h3 class="section-title">Loot & Alchemical Remains</h3>
+          <div class="tags-container loot-tags" id="modal-loot-tags"></div>
+        </div>
+      </div>
+      
+      <div class="dossier-footer">
+        <span class="footer-quote">"There are no monsters that cannot be slain with preparation and knowledge."</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Combat Preparation Calculator Modal -->
+  <div class="modal-backdrop" id="combat-prep-modal" aria-hidden="true" role="dialog">
+    <div class="modal-container prep-modal-container">
+      <button class="modal-close-btn" id="prep-modal-close-btn" aria-label="Close Calculator">✕</button>
+      
+      <div class="dossier-header">
+        <h2 class="dossier-title">Geralt's Combat Prep Station</h2>
+        <p class="sub-note">Select any target monster to immediately determine blade oil, sign tactics, and bomb loadout.</p>
+      </div>
+
+      <div class="prep-select-group">
+        <label for="prep-monster-select" class="prep-label">Target Beast:</label>
+        <select id="prep-monster-select" class="prep-select">
+          <option value="">-- Choose a creature from the Path --</option>
+        </select>
+      </div>
+
+      <div class="prep-result-display" id="prep-result-display" style="display: none;">
+        <!-- Filled dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Witcher Alchemy Lab Modal -->
+  <div class="modal-backdrop" id="alchemy-modal" aria-hidden="true" role="dialog">
+    <div class="modal-container alchemy-modal-container">
+      <button class="modal-close-btn" id="alchemy-modal-close-btn" aria-label="Close Alchemy Lab">✕</button>
+      
+      <div class="dossier-header">
+        <div class="dossier-badge">Laboratory of Kaer Morhen</div>
+        <h2 class="dossier-title">The Witcher Alchemy Lab</h2>
+        <p class="sub-note">Browse Mutagen Decoctions, Blade Oils, and Potions — find required monster drops and their effects.</p>
+      </div>
+
+      <div class="alchemy-controls-bar">
+        <div class="search-bar-wrapper" style="margin-bottom: 1rem;">
+          <span class="search-icon">🔍</span>
+          <input 
+            type="text" 
+            id="alchemy-search-input" 
+            class="search-input" 
+            placeholder="Search by recipe, effect (e.g. Life Steal), or monster drop (e.g. mutagen)..." 
+            autocomplete="off"
+          >
+        </div>
+        <div class="alchemy-type-pills" id="alchemy-type-filters">
+          <button class="class-pill active" data-type="all">All Recipes (54)</button>
+          <button class="class-pill" data-type="Decoction">Mutagen Decoctions</button>
+          <button class="class-pill" data-type="Blade Oil">Blade Oils</button>
+          <button class="class-pill" data-type="Potion">Core Potions</button>
+        </div>
+      </div>
+
+      <div class="alchemy-results-info" id="alchemy-results-info">Showing 54 recipes</div>
+
+      <div class="alchemy-recipes-grid" id="alchemy-recipes-grid">
+        <!-- Rendered via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>The Witcher 3: Wild Hunt — Interactive Bestiary Compendium</p>
+      <p class="copyright">Built with vanilla modern web technologies for Witcher fans. Data sourced from the Witcher Fandom Bestiary & Fextralife archives.</p>
+    </div>
+  </footer>
+
+  <!-- External CDNs: Fuse.js for Fuzzy Search & Tippy.js for Tooltips -->
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+
+  <!-- Application Script -->
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
+

@@ -1,5 +1,7 @@
 import sys
+import json
 import random
+import webbrowser
 from pathlib import Path
 
 # Ensure UTF-8 output on Windows consoles
@@ -19,6 +21,16 @@ from bestiary import load_monsters, Monster
 
 console = Console()
 monsters = load_monsters()
+
+ALCHEMY_DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "alchemy_recipes.json"
+
+def load_alchemy_recipes():
+    if not ALCHEMY_DATA_PATH.exists():
+        return []
+    with open(ALCHEMY_DATA_PATH, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+alchemy_recipes = load_alchemy_recipes()
 
 
 def highlight_weakness(w: str) -> str:
@@ -245,6 +257,121 @@ def print_banner():
 
 
 
+def display_recipe_card(r: dict):
+    """Renders a themed alchemical recipe card."""
+    grid = Table.grid(padding=(0, 2))
+    grid.add_column(style="bold yellow", justify="right", min_width=16)
+    grid.add_column()
+
+    grid.add_row("Type:", f"[bold cyan]{r.get('type', 'Unknown')}[/bold cyan]")
+    grid.add_row("Effect:", f"[bold green]{r.get('effect', 'None')}[/bold green]")
+    
+    if r.get("toxicity"):
+        grid.add_row("Toxicity:", f"[bold magenta]{r.get('toxicity')}%[/bold magenta]")
+
+    if r.get("monster_ingredient"):
+        grid.add_row("Monster Drop:", f"[bold red]✦ {r.get('monster_ingredient')}[/bold red]")
+
+    targets = ", ".join(r.get("target_monsters", []))
+    if targets:
+        grid.add_row("Obtained From:", f"[italic white]{targets}[/italic white]")
+
+    all_ingr = ", ".join(r.get("all_ingredients", []))
+    if all_ingr:
+        grid.add_row("Full Ingredients:", f"[dim]{all_ingr}[/dim]")
+
+    console.print(Panel(
+        grid,
+        title=f"[bold gold1]⚗️  {r.get('name', 'Recipe')} [/bold gold1]",
+        border_style="yellow",
+        box=box.ROUNDED,
+        padding=(1, 2)
+    ))
+
+
+def browse_alchemy_lab():
+    """Witcher Alchemy Laboratory interface in terminal."""
+    if not alchemy_recipes:
+        console.print("[bold red]No alchemy recipes found. Ensure data/alchemy_recipes.json exists.[/bold red]")
+        return
+
+    console.print("\n[bold gold1]*** THE WITCHER ALCHEMY LABORATORY (Kaer Morhen Archives) ***[/bold gold1]")
+    sub_table = Table.grid(padding=(0, 2))
+    sub_table.add_column(style="bold yellow", justify="right")
+    sub_table.add_column(style="bold white")
+    sub_table.add_row("[1]", "Browse Mutagen Decoctions (30 recipes)")
+    sub_table.add_row("[2]", "Browse Blade Oils & Core Potions")
+    sub_table.add_row("[3]", "Search Recipes by Effect or Ingredient (e.g. Life Steal, Stamina)")
+    sub_table.add_row("[4]", "Back to Main Menu")
+
+    console.print(Panel(sub_table, title="[bold gold1]Alchemy Menu[/bold gold1]", border_style="green", box=box.ROUNDED))
+
+    sub_choice = Prompt.ask("[bold green]Select an alchemy option[/bold green]", choices=["1", "2", "3", "4"], default="1")
+
+    if sub_choice == "1":
+        decoctions = [r for r in alchemy_recipes if r.get("type") == "Decoction"]
+        table = Table(
+            title=f"[bold gold1]Mutagen Decoctions ({len(decoctions)})[/bold gold1]",
+            box=box.ROUNDED,
+            border_style="green",
+            header_style="bold green"
+        )
+        table.add_column("Decoction Name", style="bold white", min_width=25)
+        table.add_column("Required Mutagen / Drop", style="bold red", min_width=22)
+        table.add_column("Primary Effect", style="italic green")
+
+        for d in decoctions:
+            table.add_row(d.get("name"), d.get("monster_ingredient", "N/A"), d.get("effect", ""))
+        console.print(table)
+
+    elif sub_choice == "2":
+        others = [r for r in alchemy_recipes if r.get("type") != "Decoction"]
+        table = Table(
+            title=f"[bold gold1]Blade Oils & Potions ({len(others)})[/bold gold1]",
+            box=box.ROUNDED,
+            border_style="cyan",
+            header_style="bold cyan"
+        )
+        table.add_column("Recipe Name", style="bold white", min_width=25)
+        table.add_column("Type", style="cyan", min_width=12)
+        table.add_column("Effect / Purpose", style="italic")
+
+        for r in others:
+            table.add_row(r.get("name"), r.get("type"), r.get("effect", ""))
+        console.print(table)
+
+    elif sub_choice == "3":
+        query = Prompt.ask("\n[bold green]Enter search keyword (e.g. Stamina, Vitality, Nekker, Mutagen)[/bold green]").strip().lower()
+        if not query:
+            return
+        matches = [
+            r for r in alchemy_recipes
+            if query in r.get("name", "").lower()
+            or query in r.get("effect", "").lower()
+            or query in r.get("monster_ingredient", "").lower()
+            or any(query in t.lower() for t in r.get("target_monsters", []))
+            or any(query in i.lower() for i in r.get("all_ingredients", []))
+        ]
+        if not matches:
+            console.print(f"[bold red]No alchemy recipes matched '{query}'.[/bold red]\n")
+            return
+
+        console.print(f"\n[green]Found {len(matches)} matching alchemy recipe(s):[/green]")
+        for r in matches:
+            display_recipe_card(r)
+
+
+def launch_web_dashboard():
+    """Opens the Witcher 3 Interactive Web UI Dashboard in the browser."""
+    url = "http://127.0.0.1:5000"
+    console.print(f"\n[bold gold1]⚔ Opening Witcher 3 Web UI Dashboard at [underline]{url}[/underline] ...[/bold gold1]")
+    console.print("[dim](If the local server is not already active, launch it in another terminal with: python src/app.py)[/dim]\n")
+    try:
+        webbrowser.open(url)
+    except Exception as e:
+        console.print(f"[red]Could not launch browser automatically: {e}[/red]")
+
+
 def main_menu():
     print_banner()
 
@@ -258,12 +385,14 @@ def main_menu():
         menu_table.add_row("[3]", "Search by class")
         menu_table.add_row("[4]", "Search by loot drop")
         menu_table.add_row("[5]", "Search by weakness (Sign / Oil / Bomb)")
-        menu_table.add_row("[6]", "Random encounter")
-        menu_table.add_row("[7]", "Exit")
+        menu_table.add_row("[6]", "⚗️  Witcher Alchemy Lab (Decoctions & Oils)")
+        menu_table.add_row("[7]", "🌐 Launch Web UI Dashboard (Browser)")
+        menu_table.add_row("[8]", "🎲 Random encounter on the Path")
+        menu_table.add_row("[9]", "Exit")
 
         console.print(Panel(menu_table, title="[bold gold1]Main Menu[/bold gold1]", border_style="dim white", box=box.ROUNDED))
 
-        choice = Prompt.ask("[bold red]Select an option[/bold red]", choices=["1", "2", "3", "4", "5", "6", "7"], default="1")
+        choice = Prompt.ask("[bold red]Select an option[/bold red]", choices=["1", "2", "3", "4", "5", "6", "7", "8", "9"], default="1")
 
         if choice == "1":
             list_all_monsters()
@@ -276,8 +405,12 @@ def main_menu():
         elif choice == "5":
             search_by_weakness()
         elif choice == "6":
-            random_encounter()
+            browse_alchemy_lab()
         elif choice == "7":
+            launch_web_dashboard()
+        elif choice == "8":
+            random_encounter()
+        elif choice == "9":
             console.print("\n[bold yellow]Safe travels on the Path. Farewell, Witcher![/bold yellow]\n")
             break
 
